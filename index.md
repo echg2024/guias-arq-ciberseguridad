@@ -7,6 +7,7 @@
 - ### 📘 Guías de Ciberseguridad
   - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
+  - [Guía de Pentesting](./guias/guia-pentesting.md)
   
 - ### 🏢 Políticas y Procedimientos
   - [Políticas Corporativas](./politicas.md)
