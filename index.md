@@ -6,7 +6,7 @@
 
 - ### 📘 Guías de Ciberseguridad
   - [Guía de Ransomware](./guias/guia-ransomware.md)
-  - [Guía de Gestión de Riesgos](./guias/guia-riesgos.md)
+  - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
   
 - ### 🏢 Políticas y Procedimientos
   - [Políticas Corporativas](./politicas.md)
