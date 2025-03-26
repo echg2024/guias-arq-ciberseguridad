@@ -3,10 +3,17 @@
 ¡Bienvenido al repositorio oficial de lineamientos empresariales!
 
 ## 🏢 Secciones Principales
-- [Guias Ciberseguridad](./guias/guia-ransomware.md)
-- [Políticas Corporativas](./politicas.md)
-- [Procedimientos Internos](./procedimientos.md)
-- [Capacitación](./capacitacion.md)
+
+- ### 📘 Guías de Ciberseguridad
+  - [Guía de Ransomware](./guias/guia-ransomware.md)
+  - [Guía de Gestión de Riesgos](./guias/guia-riesgos.md)
+  
+- ### 🏢 Políticas y Procedimientos
+  - [Políticas Corporativas](./politicas.md)
+  - [Procedimientos Internos](./procedimientos.md)
+  
+- ### 🎓 Capacitación
+  - [Capacitación](./capacitacion.md)
 
 ## 📢 Actualizaciones Recientes
 - Actualizado el: **{{Fecha Actual}}**
