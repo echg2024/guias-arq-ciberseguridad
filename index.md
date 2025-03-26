@@ -3,7 +3,7 @@
 ¡Bienvenido al repositorio oficial de lineamientos empresariales!
 
 ## 🏢 Secciones Principales
-- [Guias Ciberseguridad](./guias.md)
+- [Guias Ciberseguridad](./guias/guia-ransomware.md)
 - [Políticas Corporativas](./politicas.md)
 - [Procedimientos Internos](./procedimientos.md)
 - [Capacitación](./capacitacion.md)
