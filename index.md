@@ -4,9 +4,10 @@
 
 ## 🏢 Secciones Principales
 
-- ### 📘 Guías de Ciberseguridad
-  - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
+- ### 📘 Guías de Arquitectura y Ciberseguridad
+  
   - [Guía de Frameworks Salud](./guias/guia-frameworks.md)
+  - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
   - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
   - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
