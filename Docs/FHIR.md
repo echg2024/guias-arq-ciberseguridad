@@ -330,6 +330,9 @@ Durante una pandemia, las autoridades de salud necesitan recolectar y analizar d
 
 ### 📢 Reflexión:
 **¿Cómo influye FHIR en la capacidad de respuesta ante crisis de salud pública?**
+- ✔ FHIR facilita la recopilación y el intercambio de datos en tiempo real, permitiendo a las autoridades de salud pública reaccionar rápidamente ante brotes y pandemias.
+- ✔ La estandarización de datos ayuda a identificar patrones y tendencias que son esenciales para tomar decisiones informadas, como asignar recursos médicos donde más se necesitan.
+- ✔ Al anonimizar datos sensibles, se protege la privacidad de los pacientes sin comprometer la utilidad de la información para la salud pública.
 
 ---
 
