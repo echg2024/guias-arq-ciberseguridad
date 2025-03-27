@@ -213,7 +213,7 @@ La ciberseguridad en FHIR no es opcional; es una necesidad. Desde el diseño has
 El estándar **FHIR** representa un gran avance en la interoperabilidad del sector salud debido a su flexibilidad y capacidad para integrarse con tecnologías modernas. Sin embargo, la implementación exitosa requiere una fuerte atención a la **ciberseguridad** para proteger los datos sensibles de los pacientes y cumplir con las normativas internacionales.
 
 ---
-# 📉 MÓDULO 2: ESTRUCTURA Y COMPONENTES BÁSICOS EN FHIR
+# 📌 MÓDULO 2: ESTRUCTURA Y COMPONENTES BÁSICOS EN FHIR
 
 ## 📁 Recursos en FHIR: Concepto y Estructura
 
@@ -802,3 +802,72 @@ Un proveedor de servicios de salud quiere identificar vulnerabilidades en su ser
 ✅ **Respuesta:**
 
 Las pruebas permiten identificar y corregir vulnerabilidades antes de que sean explotadas, garantizando la seguridad y confiabilidad del sistema.
+
+---
+
+# 🏥 MÓDULO 5: SEGURIDAD Y CUMPLIMIENTO EN FHIR
+### 🏥 Caso de Uso 1: Seguridad en el Acceso a Historias Clínicas
+#### Escenario
+Un hospital necesita asegurar que solo el personal autorizado pueda acceder a las historias clínicas de los pacientes.
+
+#### Solución con FHIR
+- Implementación de OAuth2 para autenticar y autorizar usuarios.
+- Registro de accesos mediante auditoría para trazabilidad.
+
+#### 📢 Reflexión
+¿Por qué es esencial limitar el acceso a los datos clínicos?
+
+✅ **Respuesta:** Limitar el acceso protege la privacidad del paciente y previene el uso indebido de datos sensibles. Además, asegura el cumplimiento de normativas legales.
+
+---
+
+### 🏥 Caso de Uso 2: Cumplimiento de Normativas en la Transferencia de Datos
+#### Escenario
+Una clínica debe transferir datos de pacientes a una aseguradora cumpliendo con GDPR y HIPAA.
+
+#### Solución con FHIR
+- Cifrado de datos mediante TLS durante la transferencia.
+- Seudonimización de datos personales antes de enviarlos.
+
+#### 📢 Reflexión
+¿Cómo ayudan las regulaciones a proteger los datos en tránsito?
+
+✅ **Respuesta:** Garantizan que incluso si los datos son interceptados, no puedan ser utilizados, protegiendo la privacidad del paciente.
+
+---
+
+### 🏥 Caso de Uso 3: Auditoría y Detección de Incidentes
+#### Escenario
+Un proveedor de salud debe monitorear el acceso y uso de datos para detectar accesos no autorizados.
+
+#### Solución con FHIR
+- Uso de registros de auditoría para rastrear accesos.
+- Implementación de alertas automáticas ante actividades sospechosas.
+
+#### 📢 Reflexión
+¿Por qué es importante tener un sistema de auditoría activo?
+
+✅ **Respuesta:** Permite identificar y responder rápidamente a incidentes de seguridad, reduciendo el riesgo de filtraciones y cumpliendo con normativas.
+
+## 🏋️ Ejercicios Prácticos
+
+### ✅ Ejercicio 1: Configuración de TLS en un Servidor FHIR
+📢 **Instrucciones:**
+1. Configura un servidor HAPI FHIR local.
+2. Habilita TLS y prueba la conexión segura mediante Postman.
+
+#### 📢 **Solución:**
+- Instalación del certificado SSL.
+- Configuración del puerto HTTPS.
+- Verificación con la herramienta Postman.
+
+---
+
+### ✅ Ejercicio 2: Implementación de OAuth2 en FHIR
+📢 **Instrucciones:**
+1. Crea una aplicación que acceda a recursos Patient.
+2. Implementa OAuth2 para la autenticación.
+
+#### 📢 **Solución:**
+- Registro de la aplicación en el servidor FHIR.
+- Uso de tokens de acceso y actualización.
