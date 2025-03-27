@@ -51,7 +51,7 @@
   
 ---
 ## FHIR Security
-La ciberseguridad es un pilar fundamental en la implementación de FHIR, ya que trata con información de salud altamente sensible. A continuación, explico cómo la seguridad se interrelaciona con cada módulo del temario que propuse:
+La ciberseguridad es un pilar fundamental en la implementación de FHIR, ya que trata con información de salud altamente sensible. A continuación, explico cómo la seguridad se interrelaciona con cada módulo del temario propuesto:
 
 # 🔐 MÓDULO 1: INTRODUCCIÓN A FHIR – Seguridad desde el diseño
 
