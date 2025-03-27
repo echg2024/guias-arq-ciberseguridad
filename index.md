@@ -10,7 +10,7 @@
   - [Guía de Pentesting](./guias/guia-pentesting.md)
 
 - ### 📘 Normativas
-  - [ISO-27799](./Docs/ISO-27799-2016.pdf)
+  - [ISO-27799](./Docs/ISO-27799-2016.pdf) → Seguridad de la información en salud.
 
 - ### 🏢 Políticas y Procedimientos
   - [Políticas Corporativas](./politicas.md)
