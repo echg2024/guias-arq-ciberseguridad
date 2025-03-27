@@ -105,9 +105,7 @@ shodan init TU_API_KEY
 ```bash
 shodan search "PACS country:PE"
 ```
-
 ---
-
 ## 🚀 Conclusión
 Una vez instaladas estas herramientas, puedes empezar a probarlas en entornos controlados.
 
@@ -116,3 +114,53 @@ Una vez instaladas estas herramientas, puedes empezar a probarlas en entornos co
 - ✅ **BloodHound** → Instalado con `apt install`
 - ✅ **Metasploit** → Instalado con `apt install`
 - ✅ **Shodan / Censys** → Instalado con `pip install
+
+
+---
+# 🚨 Recomendación para Entornos Corporativos de Salud en Perú 🚨
+
+En una empresa del sector salud en Perú, donde la ciberseguridad y la protección de datos son críticas (especialmente por normativas como la **Ley de Protección de Datos Personales - Ley N° 29733**), **NO** es recomendable instalar herramientas de pentesting en tu laptop corporativa.
+
+## ✅ Motivos para Exigir un Equipo Dedicado para Pentesting
+
+### Evitar Conflictos con Políticas de Seguridad Interna:
+- Muchas empresas tienen controles de **Endpoint Detection and Response (EDR)** como **CrowdStrike**, **Microsoft Defender ATP** o **SentinelOne**, que pueden bloquear herramientas de pentesting por considerarlas maliciosas.
+- Instalar estas herramientas en tu laptop corporativa podría activar alertas y causar problemas con el equipo de IT o SOC.
+
+### Minimizar Riesgos de Exposición de Datos Sensibles:
+- Las herramientas de pentesting pueden almacenar logs con información de la red corporativa, lo que podría generar riesgos en caso de incidentes o auditorías.
+
+### Evitar Sanciones o Problemas Legales:
+- El sector salud maneja datos sensibles de pacientes y cualquier actividad de prueba no autorizada puede interpretarse como una violación de regulaciones.
+- La **Ley N° 29733** y la normativa de la **SBS** pueden sancionar el acceso no autorizado a datos personales.
+
+### Mejor Gestión de Recursos y Rendimiento:
+- Herramientas como **Metasploit**, **Nessus** o **OpenVAS** consumen mucha **RAM** y **CPU**, lo que podría ralentizar tu laptop corporativa y afectar tu productividad.
+
+## 📌 ¿Qué Solicitar a la Empresa?
+
+Para un entorno seguro y controlado, debes pedir un equipo dedicado con las siguientes características:
+
+- ✔ **Laptop o Servidor Virtual (VM)** con **Kali Linux** o **Parrot OS**
+- ✔ **Acceso restringido a una red de pruebas aislada**
+- ✔ **Autorización explícita del área de seguridad/cumplimiento**
+- ✔ **Instalación de herramientas en una máquina virtual separada**
+
+## ⚡ Alternativas: Uso de Laboratorios en la Nube
+
+Si la empresa no puede proporcionarte un equipo físico, puedes sugerir el uso de:
+
+- 🔹 **TryHackMe** / **Hack The Box** → Para entrenar pentesting sin riesgos
+- 🔹 **AWS** / **Azure** / **GCP** → Para crear entornos de prueba controlados
+- 🔹 **Proxmox** / **VMware ESXi** → Para correr máquinas virtuales localmente
+
+## 🔴 ¡IMPORTANTE!
+
+Antes de hacer pentesting en el entorno de la empresa, **obtén siempre una autorización formal** del **CISO** o del área de seguridad.
+
+## 📢 Conclusión:
+
+- ✅ No instales herramientas de pentesting en tu laptop corporativa.
+- ✅ Solicita un equipo dedicado o un entorno virtual.
+- ✅ Cumple con normativas de seguridad del sector salud en Perú.
+- ✅ Usa entornos en la nube o laboratorios controlados para entrenar.
