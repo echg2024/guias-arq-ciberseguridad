@@ -6,7 +6,7 @@ En el sector salud, la gestión de la información clínica, la seguridad de los
 
 - 📄 **HL7** es un marco de interoperabilidad que facilita el intercambio de datos de salud.
 - 🌐 **FHIR** es un estándar basado en APIs modernas para la integración de sistemas de salud. -> [FHIR](./docs/FHIR-modulos.md)
-- 🔒 **ISO 27799** proporciona directrices para la seguridad de la información en el sector sanitario.
+- 🔒 **ISO 27799** proporciona directrices para la seguridad de la información en el sector sanitario. -> [ISO-27799](./docs/ISO-27799.pdf)
 - 🏗️ **TOGAF** es un marco de arquitectura empresarial que ayuda a estructurar y alinear TI con los objetivos del negocio.
 
 Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimiento normativo y la alineación estratégica en las organizaciones de salud.
