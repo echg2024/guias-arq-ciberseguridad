@@ -312,9 +312,9 @@ Un paciente sufre un accidente y es llevado a un hospital fuera de su red habitu
 
 ### 📢 Reflexión:
 **¿Por qué es vital que los datos de salud estén disponibles de manera inmediata y precisa en emergencias?**
-✔ En situaciones de emergencia, las decisiones clínicas deben tomarse en cuestión de segundos o minutos. Tener acceso inmediato y preciso al historial médico, alergias y medicación actual del paciente puede marcar la diferencia entre la vida y la muerte.
-✔ Un acceso limitado o tardío podría derivar en decisiones incorrectas, como administrar medicamentos a los que el paciente es alérgico.
-✔ La precisión también es clave para evitar diagnósticos erróneos y tratamientos inadecuados.
+- ✔ En situaciones de emergencia, las decisiones clínicas deben tomarse en cuestión de segundos o minutos. Tener acceso inmediato y preciso al historial médico, alergias y medicación actual del paciente puede marcar la diferencia entre la vida y la muerte.
+- ✔ Un acceso limitado o tardío podría derivar en decisiones incorrectas, como administrar medicamentos a los que el paciente es alérgico.
+- ✔ La precisión también es clave para evitar diagnósticos erróneos y tratamientos inadecuados.
 
 ---
 
