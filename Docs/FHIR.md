@@ -298,7 +298,7 @@ Estas terminologías garantizan que los datos compartidos sean interpretables po
 ---
 # 📌 MÓDULO 3: INTERCAMBIO DE DATOS Y FORMATOS EN FHIR
 
-## 💑 Introducción
+## Introducción
 
 El intercambio de datos es una de las piedras angulares de FHIR, ya que permite la interoperabilidad entre distintos sistemas de salud. Este módulo se enfoca en los formatos de representación de datos, los métodos para el intercambio mediante API REST y los mecanismos de autenticación y seguridad.
 
@@ -400,7 +400,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 - 🔐 La seguridad es fundamental para proteger los datos de salud.
 ---
 
-## 📌 MÓDULO 4: IMPLEMENTACIÓN PRÁCTICA DE FHIR
+# 📌 MÓDULO 4: IMPLEMENTACIÓN PRÁCTICA DE FHIR
 
 ### 🏗️ Instalación y Uso de Servidores FHIR
 
