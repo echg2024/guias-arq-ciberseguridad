@@ -208,8 +208,90 @@ La ciberseguridad en FHIR no es opcional; es una necesidad. Desde el diseño has
 - **Auditoría y Trazabilidad:** Registro de accesos y modificaciones para asegurar la integridad de la información.
 
 ---
-
 ## ✅ Conclusión
 
 El estándar **FHIR** representa un gran avance en la interoperabilidad del sector salud debido a su flexibilidad y capacidad para integrarse con tecnologías modernas. Sin embargo, la implementación exitosa requiere una fuerte atención a la **ciberseguridad** para proteger los datos sensibles de los pacientes y cumplir con las normativas internacionales.
 
+---
+# 📉 MÓDULO 2: ESTRUCTURA Y COMPONENTES BÁSICOS EN FHIR
+
+## 📁 Recursos en FHIR: Concepto y Estructura
+
+En FHIR (Fast Healthcare Interoperability Resources), un "recurso" es la unidad básica de información. Representa una pieza específica de datos clínicos o administrativos en el sector salud, como un paciente, una consulta o un resultado de laboratorio.
+
+- Cada recurso es autocontenido, legible por máquinas y personas.
+- Puede combinarse con otros recursos para crear registros completos.
+- Utiliza formatos como JSON, XML y RDF para el intercambio de datos.
+
+## 📈 Tipos de Recursos en FHIR
+
+Los recursos en FHIR se agrupan en varias categorías:
+
+### 👨‍🏥 Recursos de Entidad:
+
+- **Patient:** Contiene información básica del paciente.
+- **Practitioner:** Detalles del profesional de salud.
+- **Organization:** Datos de la institución médica.
+
+### 🏥 Recursos de Evento:
+
+- **Encounter:** Registra un encuentro o consulta médica.
+- **Observation:** Contiene resultados de exámenes o mediciones.
+- **Procedure:** Documenta procedimientos médicos realizados.
+
+### 🗓 Recursos de Registro:
+
+- **AllergyIntolerance:** Lista de alergias e intolerancias del paciente.
+- **MedicationRequest:** Solicitudes de medicamentos.
+- **Condition:** Diagnósticos y condiciones médicas.
+
+### 🔍 Recursos de Infraestructura:
+
+- **AuditEvent:** Registra eventos de auditoría.
+- **Bundle:** Agrupa múltiples recursos en una sola estructura.
+
+## 📚 Codificación y Terminologías en FHIR
+
+La estandarización de datos clínicos en FHIR requiere el uso de terminologías reconocidas internacionalmente para asegurar la interoperabilidad.
+
+- **LOINC** (Logical Observation Identifiers Names and Codes): Para pruebas de laboratorio.
+- **SNOMED CT** (Systematized Nomenclature of Medicine): Para condiciones médicas y diagnósticos.
+- **ICD-10** (International Classification of Diseases): Para clasificar enfermedades.
+
+Estas terminologías garantizan que los datos compartidos sean interpretables por diferentes sistemas y geografías.
+
+## 🌐 Perfiles y Extensiones en FHIR
+
+### 📄 Perfiles
+
+- Restringen o especializan un recurso estándar de FHIR para cumplir con necesidades específicas.
+- **Ejemplo:** Un perfil de **Patient** puede requerir el número de seguridad social en un país específico.
+
+### 🗋 Extensiones
+
+- Se utilizan cuando los datos no pueden ser representados con los atributos estándar de un recurso.
+- Deben ser compatibles con la especificación de FHIR y estar bien documentadas.
+
+## 🔒 Relación con la Ciberseguridad
+
+### 🔐 Seguridad en la Estructura de Recursos:
+
+- Los datos sensibles como identificadores de pacientes y condiciones médicas deben ser cifrados.
+- Autorización basada en roles (RBAC) para controlar el acceso a diferentes tipos de recursos.
+
+### 🏆 Codificación y Estándares de Seguridad:
+
+- Uso de protocolos seguros (HTTPS/TLS) para el intercambio de datos.
+- Implementación de OAuth2 para autenticación y autorización en APIs.
+
+### 🛡️ Perfiles y Extensiones con Seguridad Incorporada:
+
+- Las extensiones deben seguir las mejores prácticas de seguridad.
+- Es fundamental auditar el uso de extensiones para prevenir fugas de información.
+
+## ✨ Conclusiones del Módulo 2
+
+- FHIR ofrece una estructura modular y flexible para representar datos de salud.
+- Los recursos y terminologías estándares aseguran la interoperabilidad global.
+- La seguridad debe ser una parte integral de la implementación de FHIR, con cifrado, autorización y cumplimiento normativo.
+---
