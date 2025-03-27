@@ -350,6 +350,9 @@ Un paciente reserva una cita médica a través de una aplicación de salud. La c
 
 ### 📢 Reflexión:
 **¿Cómo puede esta automatización mejorar la eficiencia en la gestión de citas?**
+- ✔ La automatización reduce significativamente los errores humanos al registrar y organizar citas.
+- ✔ Los médicos reciben notificaciones inmediatas, evitando confusiones o citas dobles.
+- ✔ Los pacientes pueden recibir recordatorios automáticos, lo que disminuye las ausencias y optimiza el uso de los recursos médicos.
 
 ---
 
@@ -365,6 +368,9 @@ Un laboratorio procesa análisis de sangre y debe enviar los resultados al médi
 
 ### 📢 Reflexión:
 **¿Por qué es importante estructurar los datos de laboratorio de manera estandarizada?**
+- ✔ La estandarización facilita la interpretación y comparación de resultados en distintos sistemas de salud.
+- ✔ Los datos estructurados permiten automatizar alertas si los resultados están fuera de los rangos normales, lo que mejora la rapidez de respuesta clínica.
+- ✔ Ayuda a integrar datos de múltiples pruebas en un solo informe coherente, mejorando la claridad y la comunicación entre profesionales de la salud.
 
 ---
 
@@ -379,6 +385,9 @@ Un hospital oncológico necesita registrar datos adicionales en el perfil de sus
 
 ### 📢 Reflexión:
 **¿Cómo pueden los perfiles personalizados mejorar la calidad de la atención médica?**
+- ✔ Los perfiles personalizados permiten incluir información adicional relevante para condiciones específicas, como el estadio del cáncer o alergias raras.
+- ✔ Esto ayuda a los médicos a tomar decisiones más informadas y adaptadas a las necesidades individuales del paciente.
+- ✔ Mantener la compatibilidad con los estándares FHIR asegura que estos datos puedan compartirse con otros sistemas de salud sin problemas.
 
 ---
 
@@ -396,6 +405,9 @@ Un paciente es transferido de un hospital a otro, y el nuevo centro necesita acc
 
 ### 📢 Reflexión:
 **¿Por qué es crucial mantener la seguridad al intercambiar datos de salud?**
+- ✔ Los datos de salud son extremadamente sensibles y están protegidos por leyes de privacidad.
+- ✔ Sin medidas de seguridad adecuadas, existe el riesgo de violaciones de datos que pueden tener consecuencias legales y afectar la confianza del paciente.
+- ✔ La seguridad también es fundamental para evitar la manipulación de datos que podría comprometer el diagnóstico y tratamiento del paciente.
 
 ---
 
@@ -411,6 +423,9 @@ Una clínica de salud mental desea notificar a los pacientes y sus médicos sobr
 
 ### 📢 Reflexión:
 **¿De qué manera mejora la adherencia al tratamiento el uso de notificaciones automáticas?**
+- ✔ Las notificaciones automáticas recuerdan a los pacientes sus medicamentos y citas, reduciendo el riesgo de olvidos.
+- ✔ Los médicos también pueden recibir alertas sobre el progreso del paciente, permitiendo ajustes en el tratamiento si es necesario.
+- ✔ Esta comunicación constante refuerza la relación médico-paciente y motiva al paciente a seguir el plan de tratamiento.
 
 ---
 
@@ -426,3 +441,8 @@ Un paciente con hipertensión utiliza un reloj inteligente para monitorear su pr
 
 ### 📢 Reflexión:
 **¿Cómo influye la tecnología IoT en la atención preventiva y el monitoreo de pacientes?**
+- ✔ Los dispositivos IoT permiten un monitoreo constante y no invasivo de las condiciones de salud del paciente, facilitando la detección temprana de problemas.
+- ✔ Los datos recopilados en tiempo real proporcionan información valiosa para ajustar tratamientos y prevenir complicaciones.
+- ✔ Esto es especialmente útil para condiciones crónicas como la hipertensión o la diabetes, donde la atención preventiva puede reducir hospitalizaciones y mejorar la calidad de vida.
+
+---
