@@ -537,9 +537,50 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 - FHIR facilita la interoperabilidad mediante servidores y herramientas accesibles.
 - Las bases de datos permiten una gestión eficiente y segura de los datos clínicos.
 - La ciberseguridad es crucial para proteger la confidencialidad y la integridad de los datos de salud.
+---
 
+# 📌 MÓDULO 5: SEGURIDAD Y CUMPLIMIENTO EN FHIR
 
+## 🏗️ Introducción
+En el ámbito de la salud digital, el manejo seguro y conforme de los datos clínicos es crucial. El estándar FHIR facilita la interoperabilidad, pero también requiere estrictas medidas de seguridad y cumplimiento normativo para proteger la información sensible de los pacientes.
 
+## 🔑 Seguridad en FHIR
+### 🔒 HTTPS y TLS
+- Garantizan la encriptación de datos en tránsito.
+- TLS (Transport Layer Security) previene la interceptación de datos sensibles.
+
+### 🔑 OAuth2
+- Protocolo de autenticación y autorización.
+- Otorga acceso basado en roles y permisos.
+
+## 📜 Cumplimiento con Normativas
+### 📌 ISO 27799
+- Estándar internacional para la gestión de información en salud.
+
+### 📌 HIPAA
+- Legislación de EE.UU. para la protección de información médica.
+
+### 📌 GDPR
+- Reglamento de la Unión Europea para la protección de datos personales.
+
+## 🛡️ Protección de Datos Personales
+- Cifrado de datos en reposo y en tránsito.
+- Seudonimización y anonimización.
+- Consentimiento informado para el procesamiento de datos.
+
+## 📊 Auditoría y Trazabilidad
+- Registro de accesos y modificaciones.
+- Detección y respuesta ante incidentes de seguridad.
+
+## 🔍 Relevancia de Ciberseguridad en FHIR para este Módulo
+- La ciberseguridad es crucial en el manejo de datos sensibles.
+- Los ataques a datos de salud pueden causar daños significativos.
+- El cumplimiento de normativas asegura la protección de datos y la confianza de los pacientes.
+
+## 📦 Conclusiones
+- La seguridad en FHIR no es solo técnica, sino también normativa.
+- El cumplimiento con regulaciones como GDPR y HIPAA es esencial.
+- La auditoría y la trazabilidad fortalecen la seguridad y la transparencia.
 
 
 
