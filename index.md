@@ -5,9 +5,10 @@
 ## 🏢 Secciones Principales
 
 - ### 📘 Guías de Ciberseguridad
-  - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
+  - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
+  - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
 
 - ### 📘 Normativas y Regulaciones en el sector Salud
   - [ISO-27799](./Docs/ISO-27799-2016.pdf) → Seguridad de la información en salud.
