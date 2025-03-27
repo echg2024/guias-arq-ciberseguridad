@@ -164,3 +164,43 @@ Antes de hacer pentesting en el entorno de la empresa, **obtén siempre una auto
 - ✅ Solicita un equipo dedicado o un entorno virtual.
 - ✅ Cumple con normativas de seguridad del sector salud en Perú.
 - ✅ Usa entornos en la nube o laboratorios controlados para entrenar.
+
+  ---
+  # 📌 Especificaciones Recomendadas para una Máquina Virtual (VM) de Pentesting
+
+Si decides solicitar una máquina virtual en la empresa, asegúrate de pedir una configuración que soporte herramientas de análisis, escaneo y explotación sin afectar el rendimiento.
+
+## 🔹 1️⃣ Especificaciones Mínimas (Para tareas básicas de pentesting)
+- **CPU:** 4 vCPUs
+- **RAM:** 8 GB
+- **Disco:** 100 GB SSD
+- **Sistema Operativo:** Kali Linux / Parrot OS
+- **Red:** Acceso a una red aislada de pruebas
+- **Snapshots habilitados:** Para restaurar el sistema tras pruebas
+
+## 🔹 2️⃣ Especificaciones Recomendadas (Para análisis avanzado y simulaciones más grandes)
+- **CPU:** 8 vCPUs (Intel i7/AMD Ryzen 7 o superior)
+- **RAM:** 16 GB (para correr varias herramientas sin problemas)
+- **Disco:** 200 GB SSD (para almacenar logs y exploits)
+- **Sistema Operativo:** Kali Linux / Parrot OS + Windows VM
+- **Red:** Acceso a VLAN de pruebas y posibilidad de conexión VPN
+- **Snapshots y acceso a Hypervisor:** VMware, Proxmox, VirtualBox
+
+## 🔹 3️⃣ Especificaciones Avanzadas (Para entornos corporativos grandes)
+- **CPU:** 16 vCPUs (Xeon o EPYC en servidores dedicados)
+- **RAM:** 32 GB o más
+- **Disco:** 500 GB SSD NVMe
+- **Red:** Múltiples interfaces de red para simulación avanzada
+- **Acceso a nube:** AWS / GCP / Azure para pentesting de infraestructura híbrida
+
+## 🔹 📢 Otras Consideraciones Claves
+- **Acceso con privilegios de root/sudo**
+- **Acceso a GPU (opcional):** Si harás análisis de hashes con Hashcat
+- **Habilitación de herramientas:** Metasploit, Burp Suite, Nessus, BloodHound, etc.
+- **Seguridad:** Asegurar que la VM esté en una red separada y sin acceso a datos sensibles
+
+## 📢 Recomendación Final
+- ✅ Si la empresa tiene VMware, Proxmox o Hyper-V, pide que te asignen una VM con los recursos indicados.
+- ✅ Si prefieren soluciones en la nube, puedes solicitar una VM en AWS/GCP con Ubuntu/Kali Linux.
+- 🔴 **¡Siempre solicita autorización formal del CISO antes de realizar pruebas en la red de la empresa!**
+---
