@@ -295,3 +295,131 @@ Estas terminologías garantizan que los datos compartidos sean interpretables po
 - Los recursos y terminologías estándares aseguran la interoperabilidad global.
 - La seguridad debe ser una parte integral de la implementación de FHIR, con cifrado, autorización y cumplimiento normativo.
 ---
+---
+CASOS DE USO
+---
+# 🏥 MÓDULO 1: INTRODUCCIÓN A FHIR
+
+## 🔍 Caso de Uso 1: Interoperabilidad en Urgencias
+
+### Escenario:
+Un paciente sufre un accidente y es llevado a un hospital fuera de su red habitual. Los médicos necesitan acceder a su historial clínico, alergias y medicación actual.
+
+### Cómo FHIR Resuelve el Problema:
+- El estándar FHIR permite al hospital consultar los registros del paciente en tiempo real mediante una API REST.
+- Los recursos FHIR como `Patient`, `AllergyIntolerance` y `MedicationRequest` proporcionan datos esenciales para decisiones rápidas.
+- La estructura estandarizada facilita compartir información entre diferentes sistemas de HCE.
+
+### 📢 Reflexión:
+**¿Por qué es vital que los datos de salud estén disponibles de manera inmediata y precisa en emergencias?**
+✔ En situaciones de emergencia, las decisiones clínicas deben tomarse en cuestión de segundos o minutos. Tener acceso inmediato y preciso al historial médico, alergias y medicación actual del paciente puede marcar la diferencia entre la vida y la muerte.
+✔ Un acceso limitado o tardío podría derivar en decisiones incorrectas, como administrar medicamentos a los que el paciente es alérgico.
+✔ La precisión también es clave para evitar diagnósticos erróneos y tratamientos inadecuados.
+
+---
+
+## 🔍 Caso de Uso 2: Salud Pública y Pandemias
+
+### Escenario:
+Durante una pandemia, las autoridades de salud necesitan recolectar y analizar datos de nuevos casos de forma diaria.
+
+### Cómo FHIR Resuelve el Problema:
+- Recursos como `Condition` y `Observation` recogen datos de síntomas y resultados de laboratorio.
+- Los datos pueden compartirse de forma anónima pero trazable para proteger la privacidad del paciente.
+- Facilita la agregación de datos para identificar tendencias y tomar decisiones de salud pública.
+
+### 📢 Reflexión:
+**¿Cómo influye FHIR en la capacidad de respuesta ante crisis de salud pública?**
+
+---
+
+# 🏥 MÓDULO 2: ESTRUCTURA Y COMPONENTES BÁSICOS
+
+## 🔍 Caso de Uso 1: Gestión de Citas Médicas
+
+### Escenario:
+Un paciente reserva una cita médica a través de una aplicación de salud. La clínica necesita registrar la cita y notificar al médico.
+
+### Cómo FHIR Resuelve el Problema:
+- El recurso `Appointment` se utiliza para registrar la cita con detalles como fecha, hora y profesional asignado.
+- El recurso `Patient` enlaza la cita con el paciente específico.
+- El recurso `Practitioner` notifica al médico correspondiente.
+
+### 📢 Reflexión:
+**¿Cómo puede esta automatización mejorar la eficiencia en la gestión de citas?**
+
+---
+
+## 🔍 Caso de Uso 2: Resultados de Laboratorio
+
+### Escenario:
+Un laboratorio procesa análisis de sangre y debe enviar los resultados al médico y al paciente.
+
+### Cómo FHIR Resuelve el Problema:
+- El recurso `Observation` representa los resultados del análisis.
+- El recurso `DiagnosticReport` agrega múltiples observaciones en un solo informe.
+- Los datos se envían en formato JSON o XML para facilitar la integración en diferentes sistemas.
+
+### 📢 Reflexión:
+**¿Por qué es importante estructurar los datos de laboratorio de manera estandarizada?**
+
+---
+
+## 🔍 Caso de Uso 3: Creación de Perfiles Personalizados
+
+### Escenario:
+Un hospital oncológico necesita registrar datos adicionales en el perfil de sus pacientes, como el estadio del cáncer y el tipo de tratamiento.
+
+### Cómo FHIR Resuelve el Problema:
+- Los perfiles personalizados permiten extender el recurso `Patient` para incluir estos datos adicionales.
+- Las extensiones mantienen la compatibilidad con sistemas estándar, asegurando interoperabilidad.
+
+### 📢 Reflexión:
+**¿Cómo pueden los perfiles personalizados mejorar la calidad de la atención médica?**
+
+---
+
+# 🏥 MÓDULO 3: INTERCAMBIO DE DATOS Y FORMATOS
+
+## 🔍 Caso de Uso 1: Intercambio de Información entre Hospitales
+
+### Escenario:
+Un paciente es transferido de un hospital a otro, y el nuevo centro necesita acceder a su historial clínico.
+
+### Cómo FHIR Resuelve el Problema:
+- La API REST de FHIR permite obtener información de recursos como `Patient`, `Condition` y `MedicationRequest`.
+- El uso de formatos JSON y XML asegura la legibilidad por distintos sistemas.
+- El soporte para OAuth2 y SMART on FHIR garantiza seguridad y privacidad.
+
+### 📢 Reflexión:
+**¿Por qué es crucial mantener la seguridad al intercambiar datos de salud?**
+
+---
+
+## 🔍 Caso de Uso 2: Notificaciones de Seguimiento de Tratamiento
+
+### Escenario:
+Una clínica de salud mental desea notificar a los pacientes y sus médicos sobre el progreso de un tratamiento.
+
+### Cómo FHIR Resuelve el Problema:
+- El recurso `Communication` permite enviar actualizaciones y alertas.
+- Las notificaciones se pueden filtrar utilizando parámetros en la API REST de FHIR.
+- Los datos se envían de manera estructurada y protegida mediante TLS.
+
+### 📢 Reflexión:
+**¿De qué manera mejora la adherencia al tratamiento el uso de notificaciones automáticas?**
+
+---
+
+## 🔍 Caso de Uso 3: Integración de Dispositivos IoT en Salud
+
+### Escenario:
+Un paciente con hipertensión utiliza un reloj inteligente para monitorear su presión arterial y enviar datos en tiempo real al médico.
+
+### Cómo FHIR Resuelve el Problema:
+- El dispositivo envía los datos como recursos `Observation` a través de una API REST.
+- Los datos se representan en formato JSON para facilitar la integración en registros clínicos.
+- El acceso se regula mediante OAuth2, garantizando privacidad y seguridad.
+
+### 📢 Reflexión:
+**¿Cómo influye la tecnología IoT en la atención preventiva y el monitoreo de pacientes?**
