@@ -661,10 +661,55 @@ La integración de FHIR con sistemas avanzados aumenta la superficie de ataque. 
 - El uso de la nube y tecnologías emergentes como IA potencia el análisis de datos.
 - La ciberseguridad es crucial para proteger la confidencialidad y la integridad de los datos clínicos.
 
+---
+# 📌 MÓDULO 7: PROYECTO FINAL
 
+## 🏁 Introducción
+El Proyecto Final representa la culminación del aprendizaje en FHIR, consolidando los conceptos y habilidades adquiridas en módulos previos. En este módulo, los participantes desarrollarán una API FHIR funcional para el intercambio de información en salud, construirán dashboards en tiempo real utilizando herramientas de Business Intelligence (BI), y optimizarán el rendimiento de servidores FHIR. Además, se simulará la interoperabilidad con otros estándares de salud como DICOM, IHE y XDS.
 
+---
 
+## 🔍 **Contenido del Módulo**
 
+### 🔧 **1. Desarrollo de una API FHIR para Intercambio de Información en Salud**
+- Creación de una API REST utilizando HAPI FHIR o Google Cloud Healthcare API.
+- Diseño de endpoints para la gestión de recursos FHIR (Patient, Observation, Encounter).
+- Validación y autenticación mediante OAuth2.
+
+### 📊 **2. Creación de Dashboards en Tiempo Real con FHIR y Herramientas BI**
+- Integración de datos de salud con herramientas de BI como Power BI o Tableau.
+- Visualización de datos de pacientes, observaciones y eventos clínicos.
+- Actualización en tiempo real mediante WebSockets o servicios de mensajería.
+
+### 🚀 **3. Optimización de Rendimiento en Servidores FHIR**
+- Estrategias de caching y compresión de datos.
+- Balanceo de carga y escalabilidad horizontal.
+- Monitoreo y análisis de rendimiento con Prometheus y Grafana.
+
+### 🔗 **4. Simulación de Interoperabilidad con Otros Estándares**
+- Integración con DICOM para imágenes médicas.
+- Uso de IHE (Integrating the Healthcare Enterprise) y XDS (Cross-Enterprise Document Sharing).
+- Pruebas de interoperabilidad entre diferentes sistemas.
+
+## 🔒 **Relevancia de Ciberseguridad en FHIR para este Módulo**
+
+- **Autenticación y Autorización:**
+  - Uso de OAuth2 para garantizar que solo usuarios autorizados accedan a datos sensibles.
+- **Cifrado de Datos:**
+  - Implementación de HTTPS y TLS para proteger datos en tránsito.
+- **Auditoría y Monitoreo:**
+  - Registro de acceso y modificaciones para mantener la trazabilidad.
+- **Protección de Integridad de Datos:**
+  - Validación de datos para evitar corrupción o alteraciones maliciosas.
+
+---
+
+## 🏁 **Conclusiones**
+
+- El desarrollo de una API FHIR mejora significativamente la interoperabilidad en entornos de salud.
+- Los dashboards en tiempo real ofrecen información crítica para la toma de decisiones.
+- La optimización del rendimiento y la interoperabilidad con otros estándares son clave para un ecosistema de salud eficiente.
+- La ciberseguridad es fundamental para proteger la confidencialidad e integridad de los datos clínicos.
 
 ---
 ---
@@ -1025,3 +1070,63 @@ Permite anticipar complicaciones, optimizar recursos y mejorar la atención pers
 **Solución:**
 - Desarrollar un script en Python para simular el envío de datos.
 - Visualizar los datos con herramientas de monitoreo.
+
+---
+# 🏥 MÓDULO 7: PROYECTO FINAL
+### 🏷️ **Caso de Uso 1: Intercambio de Información en una Red de Clínicas**
+- **Escenario:**
+  Una red de clínicas necesita intercambiar datos de pacientes y resultados de laboratorio en tiempo real.
+- **Solución con FHIR:**
+  - Implementación de una API REST basada en HAPI FHIR.
+  - Uso de recursos Patient, DiagnosticReport y Observation.
+  - Dashboards en tiempo real para seguimiento de pacientes.
+- **📢 Reflexión:**
+  ¿Por qué es crucial tener un intercambio de datos rápido y confiable en redes de clínicas?
+- **✅ Respuesta:**
+  Un intercambio rápido y confiable permite a los profesionales de la salud tomar decisiones informadas y oportunas, mejorando la atención y reduciendo riesgos.
+
+### 🏷️ **Caso de Uso 2: Monitoreo de Salud en Tiempo Real**
+- **Escenario:**
+  Un hospital quiere monitorear en tiempo real los signos vitales de pacientes en UCI.
+- **Solución con FHIR:**
+  - Integración de datos de dispositivos médicos con Observation.
+  - Visualización en dashboards mediante Power BI.
+  - Alerta inmediata ante cambios críticos.
+- **📢 Reflexión:**
+  ¿Cómo mejora la atención médica el monitoreo en tiempo real?
+- **✅ Respuesta:**
+  Permite la detección temprana de complicaciones y una respuesta más rápida, lo que puede salvar vidas.
+
+### 🏷️ **Caso de Uso 3: Interoperabilidad con Estándares Complementarios**
+- **Escenario:**
+  Un sistema de salud necesita compartir datos de imágenes médicas y documentos clínicos.
+- **Solución con FHIR:**
+  - Uso de DICOM para imágenes y XDS para documentos.
+  - Conversión y mapeo de datos hacia recursos FHIR.
+  - Simulación de interoperabilidad para verificar integridad de datos.
+- **📢 Reflexión:**
+  ¿Por qué es importante la interoperabilidad con otros estándares de salud?
+- **✅ Respuesta:**
+  Facilita el acceso integral al historial del paciente, proporcionando un panorama completo para el diagnóstico y tratamiento.
+
+---
+
+## 🏋️‍♀️ **Ejercicios Prácticos**
+
+### 🏗️ **Ejercicio 1: Construcción de una API FHIR**
+- **Instrucciones:**
+  1. Crea una API FHIR con HAPI FHIR.
+  2. Implementa recursos Patient y Observation.
+  3. Asegura el acceso mediante OAuth2.
+
+### 📊 **Ejercicio 2: Creación de un Dashboard en Tiempo Real**
+- **Instrucciones:**
+  1. Integra datos FHIR con Power BI o Tableau.
+  2. Visualiza el monitoreo de signos vitales.
+  3. Actualiza datos automáticamente cada 5 segundos.
+
+### 🔗 **Ejercicio 3: Simulación de Interoperabilidad**
+- **Instrucciones:**
+  1. Integra recursos FHIR con DICOM y XDS.
+  2. Realiza pruebas de interoperabilidad.
+  3. Genera un informe sobre la coherencia de datos.
