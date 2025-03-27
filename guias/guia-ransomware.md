@@ -75,7 +75,7 @@
 
 ## 📃 Referencias
 
-- [INCIBE](./guias/docs/guia_ransomware.pdf)
+- [INCIBE](./docs/guia_ransomware.pdf)
 - [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/sites/default/files/publications/CISA_MS-ISAC_Ransomware_Guide_S508C.pdf)
 - [National Institute of Standards and Technology (NIST)](https://csrc.nist.gov/publications/detail/sp/1800-26/final)
 - [Health Sector Cybersecurity Coordination Center (HC3)](https://www.hhs.gov/sites/default/files/ransomware-trends-2021.pdf)
