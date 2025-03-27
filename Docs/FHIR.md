@@ -401,6 +401,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 ---
 
 # 📌 MÓDULO 4: IMPLEMENTACIÓN PRÁCTICA DE FHIR
+## 📑 Introducción
+
+En el ámbito de la salud digital, la interoperabilidad de datos es fundamental para asegurar la continuidad y calidad de la atención médica. FHIR (Fast Healthcare Interoperability Resources) se ha consolidado como un estándar clave para el intercambio de datos de salud debido a su flexibilidad y adoptabilidad. En este módulo, exploraremos de manera práctica cómo implementar FHIR, desde la instalación de servidores hasta la integración con bases de datos y la relevancia de la ciberseguridad en cada etapa del proceso.
 
 ### 🏗️ Instalación y Uso de Servidores FHIR
 
