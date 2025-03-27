@@ -19,8 +19,6 @@
 - ### 🎓 Capacitación
   - [Capacitación](./capacitacion.md)
 
-- ### 🎓 Capacitación
-  - [Capacitación](./capacitacion.md)
 
 ## 📢 Actualizaciones Recientes
 - Actualizado el: **{{Fecha Actual}}**
