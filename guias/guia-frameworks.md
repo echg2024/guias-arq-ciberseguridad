@@ -5,7 +5,7 @@
 En el sector salud, la gestión de la información clínica, la seguridad de los datos y la arquitectura empresarial son fundamentales. Para abordar estos desafíos, existen estándares y marcos como HL7 (Health Level Seven), FHIR (Fast Healthcare Interoperability Resources), ISO 27799 y TOGAF (The Open Group Architecture Framework), cada uno con enfoques distintos pero complementarios.
 
 - 📄 **HL7** es un marco de interoperabilidad que facilita el intercambio de datos de salud.
-- 🌐 **FHIR** es un estándar basado en APIs modernas para la integración de sistemas de salud. -> [FHIR](./FHIR_mods.md)
+- 🌐 **FHIR** es un estándar basado en APIs modernas para la integración de sistemas de salud. -> [FHIR](./docs/FHIR_modulos.md)
 - 🔒 **ISO 27799** proporciona directrices para la seguridad de la información en el sector sanitario.
 - 🏗️ **TOGAF** es un marco de arquitectura empresarial que ayuda a estructurar y alinear TI con los objetivos del negocio.
 
