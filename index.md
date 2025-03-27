@@ -9,8 +9,8 @@
   - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
 
-- ### 🎓 Normativas
-  - [ISO27799](./guias/ISO-27799-2016.pdf)
+- ### 📘 Normativas
+  - [ISO-27799](./Docs/ISO-27799-2016.pdf)
 
 - ### 🏢 Políticas y Procedimientos
   - [Políticas Corporativas](./politicas.md)
