@@ -6,7 +6,7 @@
 
 - ### 📘 Guías de Ciberseguridad
   - [Guía de Arq. Ciberseguridad](./guias/objetivo-arq-ciber.md)
-  - [Guía de Frameworks Salud](./guias/guia-frameworks.md) -> [FHIR](./Docs/FHIR.md)
+  - [Guía de Frameworks Salud](./guias/guia-frameworks.md)
   - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
   - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
