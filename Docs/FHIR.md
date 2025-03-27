@@ -147,3 +147,69 @@ La ciberseguridad es un pilar fundamental en la implementación de FHIR, ya que 
 # 🔍 Conclusión: Seguridad como base en FHIR
 
 La ciberseguridad en FHIR no es opcional; es una necesidad. Desde el diseño hasta la implementación y el monitoreo, se deben aplicar buenas prácticas para garantizar la privacidad, integridad y disponibilidad de los datos clínicos.
+
+---
+### DESARROLLO
+
+# 📌 MÓDULO 1: INTRODUCCIÓN A FHIR
+
+## ❓ ¿Qué es FHIR? Origen y Propósito
+
+**FHIR** (Fast Healthcare Interoperability Resources) es un estándar desarrollado por **HL7 (Health Level Seven)** para facilitar el intercambio de información de salud electrónica de manera rápida y eficiente. Combina las mejores características de los estándares anteriores de **HL7 (v2 y v3)** y los adapta a las tecnologías web modernas, utilizando principalmente **JSON**, **XML** y **RESTful APIs**.
+
+- **Origen:** Creado por HL7 en 2011.
+- **Propósito:** Establecer un marco común que permita la interoperabilidad de datos clínicos entre diferentes sistemas de información de salud (**HIS**, **RIS**, **PACS**).
+
+---
+
+## 🔎 Diferencias entre HL7 v2, HL7 v3 y FHIR
+
+| **Característica**    | **HL7 v2**       | **HL7 v3**      | **FHIR**         |
+|------------------------|------------------|----------------|-----------------|
+| **Formato**            | Texto delimitado | XML            | JSON, XML, RDF  |
+| **Complejidad**        | Baja             | Alta           | Moderada        |
+| **Interoperabilidad**  | Limitada         | Moderada       | Alta            |
+| **Facilidad de uso**   | Difícil de escalar | Complejo       | Fácil de implementar |
+| **Orientación Web**    | No               | Parcial        | Sí             |
+
+---
+
+## 🌟 Ventajas y Desafíos de FHIR en la Interoperabilidad
+
+### ✅ **Ventajas:**
+
+- **Modularidad:** Los datos se estructuran en recursos reutilizables.
+- **Flexibilidad:** Compatible con múltiples formatos (**JSON**, **XML**, **RDF**).
+- **Orientación Web:** Utiliza **RESTful APIs**, facilitando la integración con aplicaciones modernas.
+- **Fácil de implementar:** Requiere menos tiempo de desarrollo en comparación con estándares anteriores.
+
+### ⚠️ **Desafíos:**
+
+- **Estándar en evolución:** Actualizaciones frecuentes pueden afectar implementaciones.
+- **Interoperabilidad real:** La personalización puede llevar a incompatibilidades.
+- **Seguridad y cumplimiento:** Garantizar privacidad y protección de datos es fundamental.
+
+---
+
+## 🏥 Aplicaciones de FHIR en el Sector Salud
+
+- **Historia Clínica Electrónica (HCE):** Intercambio de datos clínicos entre hospitales.
+- **Telemedicina:** Envío de datos de pacientes en tiempo real.
+- **Salud Pública:** Recolección y análisis de datos epidemiológicos.
+- **Farmacovigilancia:** Monitoreo y reporte de eventos adversos de medicamentos.
+
+---
+
+## 🔒 Relevancia de Ciberseguridad en FHIR
+
+- **Protección de datos sensibles:** La información de salud es altamente sensible y está regulada por normativas como **HIPAA** y **GDPR**.
+- **Cifrado y Autenticación:** Es esencial asegurar la confidencialidad y autenticidad de los datos en tránsito y en reposo.
+- **Gestión de accesos:** Implementación de **OAuth2** y **SMART on FHIR** para autorización segura.
+- **Auditoría y Trazabilidad:** Registro de accesos y modificaciones para asegurar la integridad de la información.
+
+---
+
+## ✅ Conclusión
+
+El estándar **FHIR** representa un gran avance en la interoperabilidad del sector salud debido a su flexibilidad y capacidad para integrarse con tecnologías modernas. Sin embargo, la implementación exitosa requiere una fuerte atención a la **ciberseguridad** para proteger los datos sensibles de los pacientes y cumplir con las normativas internacionales.
+
