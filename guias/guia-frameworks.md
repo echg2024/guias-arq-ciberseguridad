@@ -124,3 +124,30 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 - ✔ Usar TOGAF para estructurar y alinear TI con los objetivos estratégicos de la organización.
 - ✔ Combinar FHIR con arquitecturas modernas como microservicios y cloud computing.
 - ✔ Realizar auditorías de seguridad periódicas para asegurar el cumplimiento con ISO 27799 y otras normativas.
+
+---
+# 📊 Relación entre HL7 y FHIR
+
+FHIR (Fast Healthcare Interoperability Resources) fue desarrollado por HL7 como una evolución de sus versiones anteriores (HL7 v2 y HL7 v3). La idea principal de FHIR es modernizar la interoperabilidad en salud usando tecnologías web como APIs RESTful, JSON y XML.
+
+---
+
+## 📄 Diferencias Clave entre HL7 y FHIR
+
+| 📊 **Característica**   | **HL7 v2/v3**                                | **FHIR**                                |
+|--------------------------|------------------------------------------|------------------------------------------|
+| **Año de creación**         | HL7 v2 (1987), HL7 v3 (2005)              | FHIR (2014)                             |
+| **Formato de datos**       | Mensajes delimitados por pipes (\`|\`) en v2, XML en v3 | JSON, XML, y otros formatos modernos    |
+| **Modelo de comunicación** | Basado en mensajes (intercambio de archivos) | APIs RESTful (interacción directa con sistemas) |
+| **Facilidad de implementación** | Complejo y requiere configuración específica | Más simple y modular                    |
+| **Uso en la actualidad**   | Sigue siendo común en hospitales con sistemas antiguos | Preferido para nuevas implementaciones y apps móviles |
+| **Flexibilidad**           | Rígido y estructurado                     | Modular y adaptable                      |
+| **Integración con la nube** | Difícil                                    | Nativo para la nube                      |
+
+---
+
+## 📉 Conclusión
+
+- 🔄 **HL7 v2** sigue siendo el estándar predominante en hospitales con infraestructura heredada.
+- 📈 **FHIR** es más moderno, flexible y fácil de integrar con nuevas tecnologías como la nube y la IA.
+- 💪 **FHIR** no reemplaza a HL7 v2/v3, sino que los complementa y facilita la transición hacia sistemas más interoperables.  
