@@ -151,3 +151,5 @@ FHIR (Fast Healthcare Interoperability Resources) fue desarrollado por HL7 como 
 - 🔄 **HL7 v2** sigue siendo el estándar predominante en hospitales con infraestructura heredada.
 - 📈 **FHIR** es más moderno, flexible y fácil de integrar con nuevas tecnologías como la nube y la IA.
 - 💪 **FHIR** no reemplaza a HL7 v2/v3, sino que los complementa y facilita la transición hacia sistemas más interoperables.  
+
+[GLOSARIO](./docs/glosario.md)
