@@ -26,7 +26,7 @@
 
 - ✅ Extensibilidad: Se puede personalizar para ajustarse a los requisitos específicos de cada institución o entorno de salud.
 
-✅ Pruebas y Validación: Tiene herramientas para validar que los datos cumplan con los perfiles y reglas definidas por FHIR.
+- ✅ Pruebas y Validación: Tiene herramientas para validar que los datos cumplan con los perfiles y reglas definidas por FHIR.
 
 ### 🏥 ¿Por qué es importante en salud?
 - Interoperabilidad: HAPI FHIR permite el intercambio estructurado de datos clínicos entre sistemas, mejorando la atención al paciente.
