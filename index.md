@@ -22,7 +22,7 @@
 
 - ### 🏢 Políticas, Lineamientos y Procedimientos
   - [Políticas Corporativas](./politicas.md)
-  - [Lineamientos](./lineamientos.md)
+  - [Lineamientos](./guias/lineamientos/lineamientos.md)
   - [Procedimientos Internos](./procedimientos.md)
   
 - ### 🎓 Capacitación
