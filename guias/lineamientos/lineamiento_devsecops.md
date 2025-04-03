@@ -1,12 +1,12 @@
 # 📜 LINEAMIENTO DE SEGURIDAD EN EL DESARROLLO DE SOFTWARE (DEVSECOPS) PARA EL SECTOR SALUD
 
-## 1. 📌 INTRODUCCIÓN
+## 1. INTRODUCCIÓN
 Este documento establece los lineamientos para la integración de la seguridad en el ciclo de vida del desarrollo de software (DevSecOps) en la empresa, garantizando la protección de la información médica y el cumplimiento de normativas peruanas e internacionales.
 
-## 2. 🎯 OBJETIVO
+## 2. OBJETIVO
 Definir los principios, prácticas y herramientas de seguridad en el desarrollo de software, asegurando la **confidencialidad, integridad y disponibilidad** de los datos de salud.
 
-## 3. 📍 ALCANCE
+## 3. ALCANCE
 Aplica a todas las aplicaciones y servicios desarrollados o mantenidos por la empresa, incluyendo software en infraestructura **on-premise** y en la **nube**.
 
 ## 4. 📜 MARCO REGULATORIO Y NORMATIVO
