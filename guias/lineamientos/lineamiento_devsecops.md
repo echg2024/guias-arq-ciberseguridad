@@ -50,9 +50,9 @@ Aplica a todas las aplicaciones y servicios desarrollados o mantenidos por la em
 ## 10. 📊 ROLES Y RESPONSABILIDADES (MATRIZ RACI)
 | Actividad                          | Responsable  | Aprueba | Consulta             | Informa           |
 |-----------------------------------|-------------|---------|----------------------|-------------------|
-| Implementación de escaneo **SAST** | **DevSecOps** | **CISO** | Equipo de Desarrollo | Arquitectura TI   |
-| Auditoría de cumplimiento         | **DevSecOps** | **Seguridad** | **CISO, TI**       | Dirección         |
-| Monitoreo de Vulnerabilidades     | **CyberSOC** | **CISO** | **DevOps**           | Seguridad TI      |
+| Implementación de escaneo **SAST** | **DevSecOps** | **CISO** | **Equipo de Desarrollo** | **Arquitectura TI**   |
+| Auditoría de cumplimiento         | **DevSecOps** | **Seguridad** | **CISO, TI**       | **Dirección**         |
+| Monitoreo de Vulnerabilidades     | **CyberSOC** | **CISO** | **DevOps**           | **Seguridad TI**     |
 
 ## 11. 📂 PROCEDIMIENTOS ESPECÍFICOS
 📌 **Anexo A**: Procedimiento para la revisión de código seguro (**Checklist de OWASP**).  
