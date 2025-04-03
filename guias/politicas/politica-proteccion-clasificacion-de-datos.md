@@ -1,4 +1,4 @@
-# **📌POLÍTICA DE PROTECCIÓN Y CLASIFICACIÓN DE DATOS EN LA CLÍNICA**
+# **📌POLÍTICA DE PROTECCIÓN Y CLASIFICACIÓN DE DATOS EN SECTOR SALUD**
 
 ## **1. OBJETIVO**
 Establecer las directrices para la protección, almacenamiento y manejo de la información en la clínica, garantizando la confidencialidad, integridad y disponibilidad de los datos de los pacientes y la organización, en cumplimiento con la Ley de Protección de Datos Personales (Ley N° 29733) y estándares internacionales como ISO 27799 e ISO 27001.
