@@ -1,2 +1,2 @@
 - ### 🏢 Lineamientos
-  - [Politica protección y clasificación de datos](./politica-protección-clasificación-de-datos.md)
+  - [Politica protección y clasificación de datos](./politica-proteccion-clasificacion-de-datos.md)
