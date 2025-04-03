@@ -72,6 +72,7 @@ Este lineamiento será revisado **semestralmente** para garantizar su actualizac
 
 ## 14. ✅ APROBACIÓN FORMAL
 Para su oficialización, el lineamiento debe ser aprobado por:
+
 ✔️ **CISO o Líder de Seguridad de la Información**  
 ✔️ **Equipo de Desarrollo y DevOps**  
 ✔️ **Gerencia de TI y/o CTO**  
