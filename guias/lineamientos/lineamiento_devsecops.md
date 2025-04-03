@@ -62,6 +62,7 @@ Aplica a todas las aplicaciones y servicios desarrollados o mantenidos por la em
 
 ## 12. 🚀 IMPLEMENTACIÓN Y EVALUACIÓN PILOTO
 Antes de oficializar el lineamiento, se recomienda una implementación piloto en un equipo o proyecto específico para evaluar:
+
 ✅ Impacto en el rendimiento de desarrollo.  
 ✅ Adopción de herramientas sin fricción.  
 ✅ Ajustes necesarios para asegurar su viabilidad práctica.  
