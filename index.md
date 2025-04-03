@@ -11,7 +11,7 @@
   - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
   - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
-  - [GUÍA Técnica Protección de Datos Sensibles](./guias/guia-tecnica-proteccion-datos.md)
+  - [Guía Técnica Protección de Datos Sensibles](./guias/guia-tecnica-proteccion-datos.md)
   
 
 - ### 📘 Normativas y Regulaciones en el sector Salud
