@@ -1,4 +1,4 @@
-# **POLÍTICA DE PROTECCIÓN Y CLASIFICACIÓN DE DATOS EN LA CLÍNICA**
+# **📌POLÍTICA DE PROTECCIÓN Y CLASIFICACIÓN DE DATOS EN LA CLÍNICA**
 
 ## **1. OBJETIVO**
 Establecer las directrices para la protección, almacenamiento y manejo de la información en la clínica, garantizando la confidencialidad, integridad y disponibilidad de los datos de los pacientes y la organización, en cumplimiento con la Ley de Protección de Datos Personales (Ley N° 29733) y estándares internacionales como ISO 27799 e ISO 27001.
@@ -54,8 +54,8 @@ La información se clasifica en tres niveles según su sensibilidad y el impacto
 - **Usuarios y Personal Médico** 👩‍⚕️👨‍⚕️: Cumplir con los lineamientos de protección de datos.
 - **Proveedores de Tecnología** 💻: Garantizar la seguridad en soluciones implementadas.
 
-## **5. CUMPLIMIENTO Y AUDITORÍA** 📜
+## **📜5. CUMPLIMIENTO Y AUDITORÍA**
 Se realizarán auditorías periódicas para asegurar el cumplimiento de esta política. El incumplimiento podrá derivar en sanciones administrativas.
 
-## **6. ACTUALIZACIONES Y VIGENCIA** 🔄
+## **🔄6. ACTUALIZACIONES Y VIGENCIA**
 Esta política será revisada anualmente o cuando existan cambios regulatorios que lo requieran.
