@@ -54,8 +54,8 @@ La información se clasifica en tres niveles según su sensibilidad y el impacto
 - **Usuarios y Personal Médico**: Cumplir con los lineamientos de protección de datos.
 - **Proveedores de Tecnología**: Garantizar la seguridad en soluciones implementadas.
 
-## **📜5. CUMPLIMIENTO Y AUDITORÍA**
+## **5. CUMPLIMIENTO Y AUDITORÍA**
 Se realizarán auditorías periódicas para asegurar el cumplimiento de esta política. El incumplimiento podrá derivar en sanciones administrativas.
 
-## **🔄6. ACTUALIZACIONES Y VIGENCIA**
+## **6. ACTUALIZACIONES Y VIGENCIA**
 Esta política será revisada anualmente o cuando existan cambios regulatorios que lo requieran.
