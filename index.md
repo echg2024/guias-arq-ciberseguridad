@@ -21,7 +21,7 @@
   - Estándares internacionales (NIST, OWASP, MITRE ATT&CK) → Mejores prácticas en ciberseguridad.
 
 - ### 🏢 Políticas, Lineamientos y Procedimientos
-  - [Políticas Corporativas](./politicas.md)
+  - [Políticas Corporativas](./guias/politicas/politicas.md)
   - [Lineamientos](./guias/lineamientos/lineamientos.md)
   - [Procedimientos Internos](./procedimientos.md)
   
