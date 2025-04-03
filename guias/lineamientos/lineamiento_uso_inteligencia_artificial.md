@@ -11,6 +11,7 @@ Este documento aplica a todas las unidades operativas de la clínica, incluyendo
 
 ## 4. Marco Regulatorio y Normativo
 - **Ley de Protección de Datos Personales (Ley N° 29733) y su Reglamento**
+- **Proyecto de Reglamento de la Ley N° 31814 sobre el desarrollo y uso de la Inteligencia Artificial en el Perú**
 - **Estándares internacionales aplicables:** 
   - ISO 27001 – Seguridad de la información
   - ISO 27799 – Seguridad de la información en salud
