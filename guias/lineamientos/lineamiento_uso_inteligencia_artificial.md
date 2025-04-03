@@ -1,4 +1,4 @@
-# Lineamientos de Ciberseguridad para el Uso Ético de Productos, Aplicaciones e Inteligencia Artificial en el Sector Salud
+# 📜 Lineamientos de Ciberseguridad para el Uso Ético de Productos, Aplicaciones e Inteligencia Artificial en el Sector Salud
 
 ## 1. Introducción
 El avance tecnológico en el sector salud ha impulsado la adopción de aplicaciones, productos digitales e inteligencia artificial (IA) para mejorar la atención médica. Sin embargo, su uso inadecuado puede comprometer la privacidad, seguridad y ética de la información clínica. Este documento establece lineamientos para garantizar un uso responsable y seguro de estas tecnologías en el ámbito corporativo de la clínica.
