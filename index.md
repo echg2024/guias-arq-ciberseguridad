@@ -20,8 +20,9 @@
   - Normas del MINSA sobre Historia Clínica Electrónica (HCE) → Seguridad en sistemas de HCE/EMR.
   - Estándares internacionales (NIST, OWASP, MITRE ATT&CK) → Mejores prácticas en ciberseguridad.
 
-- ### 🏢 Políticas y Procedimientos
+- ### 🏢 Políticas, Lineamientos y Procedimientos
   - [Políticas Corporativas](./politicas.md)
+  - [Lineamientos](./lineamientos.md)
   - [Procedimientos Internos](./procedimientos.md)
   
 - ### 🎓 Capacitación
