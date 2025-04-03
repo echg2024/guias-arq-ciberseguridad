@@ -1,2 +1,2 @@
 - ### 🏢 Lineamientos
-  - [Lineamientos](./guias/lineamientos/lineamiento_devsecops.md)
+  - [Lineamiento_devsecops](./guias/lineamientos/lineamiento_devsecops.md)
