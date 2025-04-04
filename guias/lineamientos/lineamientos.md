@@ -2,3 +2,4 @@
   - [Lineamiento_devsecops](./lineamiento_devsecops.md)
   - [Lineamiento_uso ético de IA](./lineamiento_uso_inteligencia_artificial.md)
   - [Lineamiento protección y clasificación de datos](./lineamiento-proteccion-clasificacion-de-datos.md)
+  - [Lineamiento CA y PKI Interna](./lineamiento_CA_PKI_interno.md)
