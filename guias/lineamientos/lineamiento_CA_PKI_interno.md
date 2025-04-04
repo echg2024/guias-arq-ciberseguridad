@@ -103,6 +103,6 @@ Este documento debe ser aprobado por la Dirección de Seguridad de la Informaci�
 
 **Firmas:**
 
-[Nombre del Responsable de TI] – Departamento de TI.
-[Nombre del Oficial de Protección de Datos] – Oficial de Protección de Datos.
-[Nombre del Director de la Clínica] – Dirección General.
+[Nombre del Responsable de TI] – Departamento de TI
+[Nombre del Oficial de Protección de Datos] – Oficial de Protección de Datos
+[Nombre del Director de la Clínica] – Dirección General
