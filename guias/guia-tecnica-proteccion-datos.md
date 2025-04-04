@@ -23,7 +23,7 @@ El cifrado es esencial para proteger datos sensibles como historias clínicas el
 
 **Ejemplo de uso:** 
 - Cifrado de bases de datos que contienen información sobre pacientes, diagnósticos, tratamientos y recetas médicas.
-- 
+
 ### **🏷️3.2 Tokenización (Tokenization)**
 Reemplaza datos sensibles con un valor alternativo (token), sin relación matemática con el dato original.
 
@@ -56,7 +56,7 @@ El hashing es muy útil para almacenar contraseñas de acceso a sistemas de info
 
 **Ejemplos de uso:**
 - Hashing de contraseñas de acceso a registros de salud electrónicos y autenticación de usuarios.
-- 
+
 ### **🏷️3.5 Enmascaramiento de Datos (Data Masking)**
 Oculta parcialmente la información sensible para reducir el riesgo de exposición.
 El enmascaramiento de datos es importante para proteger la información sensible en entornos de prueba y desarrollo, asegurando que no se exponga información real de los pacientes.
