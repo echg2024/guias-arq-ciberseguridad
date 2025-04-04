@@ -103,6 +103,6 @@ Fecha de aprobación: [DD/MM/AAAA]
 
 Firmas:
 
-[Nombre del Responsable de TI] – Departamento de TI
-[Nombre del Oficial de Protección de Datos] – Oficial de Protección de Datos
-[Nombre del Director de la Clínica] – Dirección General
+- [Nombre del Responsable de TI] – Departamento de TI.
+- [Nombre del Oficial de Protección de Datos] – Oficial de Protección de Datos.
+- [Nombre del Director de la Clínica] – Dirección General.
