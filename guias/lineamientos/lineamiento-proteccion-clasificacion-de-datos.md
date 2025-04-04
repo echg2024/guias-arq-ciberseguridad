@@ -25,7 +25,7 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - **Transparencia:** Informar a los pacientes y empleados sobre el tratamiento de sus datos.
 
 ## **🔒6. CONTROLES DE SEGURIDAD**
-- **Cifrado de Datos:** AES-256 para almacenamiento, TLS 1.2 o superior para tránsito. Para mayor información revisar la [Guía Tpecnica Protección de Datos Sensibles](./guias/guia-tecnica-proteccion-datos.md)
+- **Cifrado de Datos:** AES-256 para almacenamiento, TLS 1.2 o superior para tránsito. Para mayor información revisar la [Guía Técnica Protección de Datos Sensibles](./guias/guia-tecnica-proteccion-datos.md)
 - **Autenticación Multifactor (MFA):** Implementación obligatoria para sistemas críticos.
 - **Control de Acceso Basado en Roles (RBAC):** Restricción de acceso según funciones.
 - **Monitoreo y Auditoría:** Seguimiento de accesos y transacciones en bases de datos.
