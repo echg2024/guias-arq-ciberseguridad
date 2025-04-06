@@ -187,7 +187,7 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 | **CFSSL (Cloudflare PKI)**| ✅ Sí       | ✅ Sí               | ❌ No (manual)     | ✅ Sí           | Microservicios, CI/CD                     |
 
 ---
-## Algunas preguntas que nos ayudarán a un mejor diseño:
+## Algunas preguntas que nos ayudarán a definir la arquitectura:
 
 ## 1. Definir la estructura de la CA interna
 
