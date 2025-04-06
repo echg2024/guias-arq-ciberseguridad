@@ -1,4 +1,4 @@
-# 🔐 Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna en Entornos de Salud
+# Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna en Entornos de Salud
 
 ## ¿Qué es una Autoridad Certificadora (CA) interna?
 
@@ -8,17 +8,17 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 - 👤 Autenticar identidades de usuarios, servicios o dispositivos.
 - 🔗 Establecer confianza dentro de una red privada.
 
-> A diferencia de una CA pública (como DigiCert, Let’s Encrypt, etc.), una CA interna no es reconocida públicamente y está limitada al entorno de red de la organización.
+> A diferencia de una CA pública (como DigiCert, etc.), una CA interna no es reconocida públicamente y está limitada al entorno de red de la organización.
 
 ---
 
 ## 🛡️ ¿Por qué implementar una CA interna?
 
-1. ✅ Control total sobre certificados y políticas de emisión.
-2. 🔐 Seguridad reforzada: evita depender de terceros.
-3. 💰 Reducción de costos para grandes volúmenes de certificados.
-4. 📜 Cumplimiento normativo y alineación con políticas corporativas.
-5. 🔄 Soporte para mTLS en entornos Zero Trust o DevSecOps.
+1. Control total sobre certificados y políticas de emisión.
+2. Seguridad reforzada: evita depender de terceros.
+3. Reducción de costos para grandes volúmenes de certificados.
+4. Cumplimiento normativo y alineación con políticas corporativas.
+5. Soporte para mTLS en entornos Zero Trust o DevSecOps.
 
 ---
 
@@ -33,21 +33,21 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ## 🔧 Casos de uso típicos
 
-- 🔐 Cifrado de tráfico interno con TLS/SSL.
-- 🌐 VPNs y acceso remoto seguro.
-- 📶 Autenticación de dispositivos IoT.
-- ⚙️ Protección de APIs y microservicios con certificados mutuos.
-- 🧾 Firmado de código interno o imágenes de contenedores.
+- Cifrado de tráfico interno con TLS/SSL.
+- VPNs y acceso remoto seguro.
+- Autenticación de dispositivos IoT.
+- Protección de APIs y microservicios con certificados mutuos.
+- Firmado de código interno o imágenes de contenedores.
 
 ---
 
 ## 🧩 Buenas prácticas
 
-1. 📦 Mantén la **Root CA** offline y protegida.
-2. ⏳ Aplica políticas de expiración y rotación de certificados.
-3. 🤖 Automatiza el ciclo de vida del certificado (emisión, renovación, revocación).
-4. 🏷️ Usa nombres DNS internos y **SANs** bien configurados.
-5. 📈 Integra con sistemas de monitoreo para evitar expiraciones no planificadas.
+1. Mantén la **Root CA** offline y protegida.
+2. Aplica políticas de expiración y rotación de certificados.
+3. Automatiza el ciclo de vida del certificado (emisión, renovación, revocación).
+4. Usa nombres DNS internos y **SANs** bien configurados.
+5. Integra con sistemas de monitoreo para evitar expiraciones no planificadas.
 
 ---
 
@@ -70,22 +70,50 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ---
 
-# 🔥 Recomendación
+# Recomendación FINAL
 
-Si quieres un PKI interno completo, lo ideal es combinar herramientas:
+## 🏥 Arquitectura de PKI Interno y CA Interno con Key Vault - Sector Salud
 
-- **EJBCA** o **Microsoft AD CS** como la CA principal.
-- **HashiCorp Vault** o **CFSSL** para gestión de certificados en entornos dinámicos (cloud, microservicios).
-- **OpenSSL** para pruebas y configuración manual inicial.
+1. **Nivel de Autoridades de Certificación (CA)**  
+   - **Root CA (Offline)**: Almacenado en entorno desconectado.  
+   - **Subordinate CA (Online)**: Emite certificados a dispositivos, usuarios y sistemas.
 
-## 🔹 Arquitectura recomendada para tu PKI interno
+2. **Key Vault (Almacenamiento Seguro)**  
+   - **Key Vault**: Almacenamiento seguro de claves privadas, certificados y secretos.
 
-### 🏢 Para Active Directory y Windows (infraestructura empresarial)
+3. **Sistemas Clínicos (consumidores de certificados)**  
+   - **EMR / HIS / PACS / LIMS / IoT Dispositivos Médicos**: Solicitan y usan certificados para cifrado TLS/SSL, autenticación mutua, y firma digital.
+
+4. **Usuarios internos**  
+   - **Usuarios Administrativos y Clínicos**: Usan certificados para autenticación y firma digital de documentos médicos.
+
+5. **Consola de Administración de CA**  
+   - **CA Management Console**: Usado por personal de TI para emitir, revocar y auditar certificados.
+
+Si la empresa cuenta con Windows Active Directory (AD), entonces Active Directory Certificate Services (AD CS) es una opción muy lógica y sólida para implementar una Autoridad Certificadora interna.
+
+
+## 🔁 Alternativa Híbrida: CA raíz común + CA subordinadas
+
+### Solo si la carga de trabajo en Oracle:
+- Es crítica (pacientes, datos clínicos, compliance).
+- Está en una red aislada o DMZ.
+- No está integrada con AD.
+
+| Tipo de CA           | Función                                                     |
+|----------------------|-------------------------------------------------------------|
+| **CA raíz (offline)** | Firma de CA subordinadas, operando de forma aislada y segura |
+| **CA subordinada 1** | Integrada con Active Directory para emisión a usuarios y equipos |
+| **CA subordinada 2** | Diseñada para entornos Oracle y servidores Linux aislados     |
+
+Pero si Oracle sí interactúa bien con AD, y el riesgo de ataque cruzado es bajo, puedes usar solo AD CS con procesos manuales (CSR).
+
+### Para Active Directory y Windows (infraestructura empresarial)
 #### ✅ Microsoft AD CS
 - Emite certificados para autenticación de usuarios, servidores y equipos en la red corporativa.
 - Integración nativa con Windows y políticas de grupo.
 
-### ☁️ Para cargas en GCP y microservicios
+### Para cargas en GCP y microservicios
 #### ✅ HashiCorp Vault + PKI Engine
 - Ideal para certificados efímeros y automatización en entornos dinámicos.
 - Se integra con Kubernetes, Terraform y CI/CD.
@@ -93,12 +121,12 @@ Si quieres un PKI interno completo, lo ideal es combinar herramientas:
 - Rápido y ligero para firmar certificados en pipelines de despliegue.
 - Compatible con GCP Cloud Run y GKE.
 
-### 🔑 Para gestión centralizada de la PKI
+### Para gestión centralizada de la PKI
 #### ✅ EJBCA
 - Solución robusta con CA, CRL, OCSP y gestión de claves.
 - Puede servir como la CA raíz de toda tu PKI interna.
 
-### 🛠 Para administración manual y pruebas
+### Para administración manual y pruebas
 #### ✅ OpenSSL
 - Útil para crear certificados de prueba y debugging.
 - Puede ser usado para firmar certificados en entornos offline.
@@ -159,11 +187,11 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 | **CFSSL (Cloudflare PKI)**| ✅ Sí       | ✅ Sí               | ❌ No (manual)     | ✅ Sí           | Microservicios, CI/CD                     |
 
 ---
-
+## Preguntas que nos ayudarán a entender mejor el escenario actual:
 ## 1. Definir la estructura de la CA interna
 
 - ¿Habrá una Root CA offline? (Recomendado para seguridad).
-- ¿Cuántas Intermediate CAs se necesitarán? (Ejemplo: Una para Windows, otra para GCP).
+- ¿Cuántas Intermediate CAs se necesitarán? (Ejemplo: Una para Windows, otra para GCP, otro para Oracle).
 - ¿Cómo se organizarán los certificados? (Usuarios, servidores, aplicaciones).
 
 ## 2. Estándares de seguridad para certificados
@@ -203,31 +231,11 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 
 ---
 
-## 🏥 Arquitectura de PKI Interno y CA Interno con Key Vault - Sector Salud
-
-1. **Nivel de Autoridades de Certificación (CA)**  
-   - **Root CA (Offline)**: Almacenado en entorno desconectado.  
-   - **Subordinate CA (Online)**: Emite certificados a dispositivos, usuarios y sistemas.
-
-2. **Key Vault (Almacenamiento Seguro)**  
-   - **Key Vault**: Almacenamiento seguro de claves privadas, certificados y secretos.
-
-3. **Sistemas Clínicos (consumidores de certificados)**  
-   - **EMR / HIS / PACS / LIMS / IoT Dispositivos Médicos**: Solicitan y usan certificados para cifrado TLS/SSL, autenticación mutua, y firma digital.
-
-4. **Usuarios internos**  
-   - **Usuarios Administrativos y Clínicos**: Usan certificados para autenticación y firma digital de documentos médicos.
-
-5. **Consola de Administración de CA**  
-   - **CA Management Console**: Usado por personal de TI para emitir, revocar y auditar certificados.
-
----
-
 ## 🏥 Recomendación para sector salud:
 
 Para clínicas, hospitales o instituciones con sistemas críticos y cargas en la nube, el modelo de dos capas es el más balanceado, combinando seguridad, escalabilidad y control sin una complejidad extrema.
 
-Si tu institución tiene múltiples sedes, servicios en nube, historia clínica electrónica, dispositivos médicos integrados, y debe cumplir regulaciones estrictas (como HIPAA, ISO 27799, etc.), considera evolucionar a un modelo de tres capas a mediano plazo.
+Si tu institución tiene múltiples sedes, servicios en nube, historia clínica electrónica, dispositivos médicos integrados, y debe cumplir regulaciones estrictas (como HIPAA, ISO 27799, etc.), considera evolucionar a un modelo de tres capas a mediano plazo (Hoja de ruta a 5 años).
 
 **Referencias:**
 - [Ahasayen](https://blog.ahasayen.com/how-to-design-a-pki-hierarchy/)
