@@ -106,7 +106,7 @@ Si la empresa cuenta con Windows Active Directory (AD), entonces Active Director
 | **CA subordinada 1** | Integrada con Active Directory para emisión a usuarios y equipos |
 | **CA subordinada 2** | Diseñada para entornos Oracle y servidores Linux aislados     |
 
-Pero si Oracle sí interactúa bien con AD, y el riesgo de ataque cruzado es bajo, puedes usar solo AD CS con procesos manuales (CSR).
+Se debe evaluar el escenario actual, solo en caso que el entorno Oracle interactúa actualmente con AD sin problemas, y el riesgo de ataque cruzado es bajo, puedes usar solo AD CS con procesos manuales (CSR).
 
 ### Para Active Directory y Windows (infraestructura empresarial)
 #### ✅ Microsoft AD CS
