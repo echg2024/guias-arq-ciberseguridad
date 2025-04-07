@@ -1,4 +1,4 @@
-# Guía Técnica para flujos de Autenticación y autorización
+# Guía Técnica para flujos de Autenticación y Autorización
 
 # 1. Introducción
 - **Importancia de la seguridad en aplicaciones clínicas.**
