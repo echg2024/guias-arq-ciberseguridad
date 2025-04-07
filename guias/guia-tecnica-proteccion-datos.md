@@ -86,15 +86,6 @@ En algunos casos, fragmentar y distribuir los datos de forma segura entre difere
 ## **📋5. CIFRADO Y PROTOCOLOS DE SEGURIDAD**
 Este capítulo detalla los algoritmos y protocolos de cifrado que deben ser desautorizados debido a sus riesgos de seguridad, así como aquellos que se deben utilizar para garantizar la protección de los datos. A continuación, se especifican los protocolos, algoritmos de cifrado, funciones hash y algoritmos de firma que deben evitarse o adoptarse conforme a las mejores prácticas y estándares de seguridad internacionales.
 
-
-## **📋5. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
-- Definir claramente los tipos de datos que deben protegerse.
-- Implementar cifrado obligatorio en todas las bases de datos y sistemas críticos.
-- Utilizar autenticación multifactor (MFA) para el acceso a información sensible.
-- Aplicar políticas de retención y eliminación segura de datos.
-- Monitorear accesos y posibles vulnerabilidades de manera continua.
-- Capacitar al personal sobre las mejores prácticas de seguridad de la información.
-
 | **Ciphers y Protocolos** | **Estado**     | **Descripción**                                             |
 |--------------------------|----------------|-------------------------------------------------------------|
 | **Protocolos**            |                |                                                             |
@@ -124,6 +115,14 @@ Este capítulo detalla los algoritmos y protocolos de cifrado que deben ser desa
 | NULL encryption          | Desautorizado  | Cifrado sin encriptación, vulnerable a ataques.              |
 | EXPORT ciphers           | Desautorizado  | Cifrados con clave débil, vulnerables a ataques.             |
 
+
+## **📋5. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
+- Definir claramente los tipos de datos que deben protegerse.
+- Implementar cifrado obligatorio en todas las bases de datos y sistemas críticos.
+- Utilizar autenticación multifactor (MFA) para el acceso a información sensible.
+- Aplicar políticas de retención y eliminación segura de datos.
+- Monitorear accesos y posibles vulnerabilidades de manera continua.
+- Capacitar al personal sobre las mejores prácticas de seguridad de la información.
 
 ## **🔄6. REVISIÓN Y ACTUALIZACIÓN**
 Esta guía deberá revisarse y actualizarse periódicamente para reflejar cambios en normativas, tecnología y mejores prácticas de seguridad.
