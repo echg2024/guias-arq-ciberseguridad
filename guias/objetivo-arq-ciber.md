@@ -1,6 +1,7 @@
 #  Arquitecto de Ciberseguridad en el Sector Salud
 
-Un Arquitecto de Ciberseguridad tiene las siguientes responsabilidades: diseño, implementación y mejora continua de la seguridad en la infraestructura y sistemas de la organización. Siendo algunas funciones más importantes:
+Un Arquitecto de Ciberseguridad tiene las siguientes responsabilidades: diseño, implementación y mejora continua de la seguridad en la infraestructura y sistemas de la organización. 
+Siendo algunas funciones más importantes:
 
 ---
 
