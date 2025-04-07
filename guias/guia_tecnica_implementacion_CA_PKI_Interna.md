@@ -12,7 +12,7 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ---
 
-## 🛡️ ¿Por qué implementar una CA interna?
+##  ¿Por qué implementar una CA interna?
 
 1. Control total sobre certificados y políticas de emisión.
 2. Seguridad reforzada: evita depender de terceros.
@@ -22,7 +22,7 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ---
 
-## 🧱 Componentes clave de una CA interna
+##  Componentes clave de una CA interna
 
 - **Root CA**: Autoridad raíz que firma su propio certificado. Está aislada (offline) y es el pilar de confianza.
 - **Intermediate CA**: Subordinada a la Root CA, emite certificados a usuarios y servicios.
@@ -31,7 +31,7 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ---
 
-## 🔧 Casos de uso típicos
+##  Casos de uso típicos
 
 - Cifrado de tráfico interno con TLS/SSL.
 - VPNs y acceso remoto seguro.
@@ -41,7 +41,7 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 ---
 
-## 🧩 Buenas prácticas
+##  Buenas prácticas
 
 1. Mantén la **Root CA** offline y protegida.
 2. Aplica políticas de expiración y rotación de certificados.
