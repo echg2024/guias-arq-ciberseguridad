@@ -1,4 +1,4 @@
-# ** GUÍA TÉCNICA PARA LA PROTECCIÓN DE DATOS SENSIBLES**
+# **GUÍA TÉCNICA PARA LA PROTECCIÓN DE DATOS SENSIBLES**
 
 ## **1. INTRODUCCIÓN** 
 La presente guía técnica tiene como objetivo definir y estandarizar las mejores prácticas para la protección de datos sensibles en la clínica. Estas medidas ayudarán a garantizar la seguridad de la información en cumplimiento con las normativas aplicables y los lineamientos de seguridad.
