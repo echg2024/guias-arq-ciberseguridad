@@ -56,25 +56,25 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 
 ###  FHIR
 
-- ✅ Usa tecnologías modernas como APIs RESTful y formatos legibles como JSON.
-- ✅ Compatible con aplicaciones móviles y sistemas en la nube.
-- ✅ Facilita la integración con IA y analítica de datos en salud.
+-  Usa tecnologías modernas como APIs RESTful y formatos legibles como JSON.
+-  Compatible con aplicaciones móviles y sistemas en la nube.
+-  Facilita la integración con IA y analítica de datos en salud.
 
-### 🔒 ISO 27799
+###  ISO 27799
 
 -  Refuerza la ciberseguridad en hospitales y centros médicos.
 -  Proporciona una base para cumplir con normativas regulatorias.
 -  Minimiza el riesgo de brechas de datos y ataques cibernéticos.
 
-### 🏗️ TOGAF
+###  TOGAF
 
 -  Asegura la alineación de TI con los objetivos del negocio.
 -  Mejora la gobernanza y la gestión de riesgos en la infraestructura de salud.
 -  Facilita la planificación a largo plazo y la escalabilidad.
 
-## 🌐 Proceso de Implementación
+##  Proceso de Implementación
 
-### 📈 HL7/FHIR
+###  HL7/FHIR
 
 1. Análisis de sistemas existentes y compatibilidad con HL7/FHIR.
 2. Definición de protocolos de integración (mensajes HL7 o APIs FHIR).
@@ -82,7 +82,7 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 4. Pruebas y certificación de interoperabilidad.
 5. Despliegue y monitoreo continuo.
 
-### 🔒 ISO 27799
+###  ISO 27799
 
 1. Evaluación de riesgos de seguridad en salud.
 2. Implementación de controles de acceso y cifrado.
@@ -90,7 +90,7 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 4. Aplicación de monitorización y auditoría.
 5. Cumplimiento con ISO 27001 y normativas locales.
 
-### 🏗️ TOGAF
+###  TOGAF
 
 1. Evaluación de la arquitectura empresarial actual.
 2. Definición de la arquitectura objetivo alineada con los objetivos del negocio.
@@ -98,9 +98,9 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 4. Gestión del cambio y gobernanza durante el despliegue.
 5. Monitoreo y actualización continua.
 
-## 🌟 Comparación con BIAN y TOGAF
+##  Comparación con BIAN y TOGAF
 
-| 📊 Característica | HL7    | FHIR   | ISO 27799 | BIAN   | TOGAF  |
+|  Característica | HL7    | FHIR   | ISO 27799 | BIAN   | TOGAF  |
 |--------------------|--------|--------|----------|--------|--------|
 | **Sector**         | Salud  | Salud  | Salud     | Banca  | Salud y otros |
 | **Interoperabilidad**| Alta  | Muy Alta | Baja    | Alta (en banca) | Alta |
@@ -109,13 +109,13 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 | **Uso de APIs**    | No     | Sí     | No        | Sí     | No |
 | **Enfoque**        | Mensajería clínica | APIs modernas | Seguridad en salud | Arquitectura bancaria | Arquitectura empresarial |
 
-## 🛠️ Conclusiones
+##  Conclusiones
 
-- 🔄 HL7 y FHIR son fundamentales para la interoperabilidad en salud, mientras que ISO 27799 refuerza la ciberseguridad.
-- 🏗️ TOGAF proporciona una estructura para alinear TI con los objetivos estratégicos del sector salud.
-- 💡 FHIR es más flexible y moderno que HL7 v2, permitiendo una integración más eficiente.
-- 🔐 ISO 27799 es clave para la gobernanza de datos y cumplimiento normativo.
-- 🔗 BIAN no es adecuado para salud, pero su enfoque en arquitectura modular puede servir de referencia.
+-  HL7 y FHIR son fundamentales para la interoperabilidad en salud, mientras que ISO 27799 refuerza la ciberseguridad.
+-  TOGAF proporciona una estructura para alinear TI con los objetivos estratégicos del sector salud.
+-  FHIR es más flexible y moderno que HL7 v2, permitiendo una integración más eficiente.
+-  ISO 27799 es clave para la gobernanza de datos y cumplimiento normativo.
+-  BIAN no es adecuado para salud, pero su enfoque en arquitectura modular puede servir de referencia.
 
 ##  Recomendaciones
 
@@ -134,7 +134,7 @@ FHIR (Fast Healthcare Interoperability Resources) fue desarrollado por HL7 como 
 
 ##  Diferencias Clave entre HL7 y FHIR
 
-| 📊 **Característica**   | **HL7 v2/v3**                                | **FHIR**                                |
+|  **Característica**   | **HL7 v2/v3**                                | **FHIR**                                |
 |--------------------------|------------------------------------------|------------------------------------------|
 | **Año de creación**         | HL7 v2 (1987), HL7 v3 (2005)              | FHIR (2014)                             |
 | **Formato de datos**       | Mensajes delimitados por pipes (\`|\`) en v2, XML en v3 | JSON, XML, y otros formatos modernos    |
