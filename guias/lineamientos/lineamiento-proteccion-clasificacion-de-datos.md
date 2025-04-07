@@ -17,14 +17,14 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - HIPAA (Health Insurance Portability and Accountability Act)
 - NIST 800-53 (Controles de Seguridad de la Información)
 
-## **🔐5. PRINCIPIOS DE PROTECCIÓN DE DATOS**
+## **5. PRINCIPIOS DE PROTECCIÓN DE DATOS**
 - **Confidencialidad:** Garantizar que solo personal autorizado acceda a la información.
 - **Integridad:** Asegurar la exactitud y consistencia de los datos a lo largo de su ciclo de vida.
 - **Disponibilidad:** Asegurar que los datos estén accesibles cuando sean requeridos.
 - **Minimización de Datos:** Recopilar y almacenar solo los datos estrictamente necesarios.
 - **Transparencia:** Informar a los pacientes y empleados sobre el tratamiento de sus datos.
 
-## **🔒6. CONTROLES DE SEGURIDAD**
+## **6. CONTROLES DE SEGURIDAD**
 - **Cifrado de Datos:** El uso de cifrado robusto es esencial para proteger los datos sensibles, tanto en tránsito como en reposo. Para detalles adicionales sobre la implementación de medidas criptográficas, se recomienda consultar la [Guía Técnica de Seguridad Criptográfica](/guias-arq-ciberseguridad/guias/guia_tecnica_seguridad_criptografica.html)
 - **Autenticación Multifactor (MFA):** Implementación obligatoria para sistemas críticos.
 - **Control de Acceso Basado en Roles (RBAC):** Restricción de acceso según funciones.
@@ -32,13 +32,13 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - **Protección Contra Fuga de Datos (DLP):** Prevención de divulgación no autorizada.
 - **Respaldo y Recuperación:** Backups cifrados con acceso restringido.
 
-## **👥7. ROLES Y RESPONSABILIDADES**
+## **7. ROLES Y RESPONSABILIDADES**
 - **Departamento de TI**: Implementar, supervisar y garantizar el cumplimiento de los lineamientos.
 - **Usuarios y Personal Médico**: Garantizar el uso adecuado de la información y reportar incidentes.
 - **Proveedores de Servicios de TI**: Cumplir con las medidas de seguridad establecidas.
 - **Oficial de Protección de Datos**: Supervisar el cumplimiento normativo y realizar auditorías.
 
-## **📊8. MATRIZ RACI**
+## **8. MATRIZ RACI**
 | Actividad                             | Responsable (R)           | Aprobador (A)                | Consultado (C)                   | Informado (I)      |
 |---------------------------------------|---------------------------|------------------------------|-----------------------------------|--------------------|
 | Implementación de controles de seguridad | TI                        | Dirección                    | Oficial de Protección de Datos    | Usuarios           |
@@ -47,13 +47,13 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 | Respaldo y recuperación de datos      | TI                        | Dirección                    | Seguridad                        | Usuarios           |
 
 
-## **🔧9. PROCEDIMIENTOS ESPECÍFICOS**
+## **9. PROCEDIMIENTOS ESPECÍFICOS**
 - **Acceso y Autorización:** Proceso formal de asignación y revocación de permisos.
 - **Gestión de Incidentes:** Respuesta rápida ante brechas de seguridad.
 - **Retención y Eliminación Segura de Datos:** Cumplimiento de plazos y eliminación certificada.
 - **Evaluación de Riesgos:** Identificación y mitigación de vulnerabilidades.
 
-## **📋10. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
+## **10. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
 - Definir claramente los tipos de datos que deben protegerse.
 - Implementar cifrado obligatorio en todas las bases de datos y sistemas críticos.
 - Utilizar autenticación multifactor (MFA) para el acceso a información sensible.
@@ -61,12 +61,12 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - Monitorear accesos y posibles vulnerabilidades de manera continua.
 - Capacitar al personal sobre las mejores prácticas de seguridad de la información.
 
-## **🔄11. REVISIÓN Y MEJORA CONTINUA**
+## **11. REVISIÓN Y MEJORA CONTINUA**
 - Se realizarán auditorías anuales y revisiones cada seis meses para evaluar la efectividad de los controles.
 - Se actualizarán los lineamientos en función de cambios normativos o tecnológicos.
 - Se promoverán capacitaciones constantes al personal sobre seguridad de la información.
 
-## **📝12. APROBACIÓN FORMAL**
+## **12. APROBACIÓN FORMAL**
 Estos lineamientos han sido aprobados por la Dirección de la Clínica y serán revisados periódicamente para garantizar su vigencia y efectividad.
 
 ---
