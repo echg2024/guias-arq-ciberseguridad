@@ -1,6 +1,6 @@
 # 🔒 Funciones Claves de un Arquitecto de Ciberseguridad en el Sector Salud
 
-Como Arquitecto de Ciberseguridad, tus responsabilidades girarán en torno al diseño, implementación y mejora continua de la seguridad en la infraestructura y sistemas de la organización. Aquí se detallan las funciones más importantes:
+Un Arquitecto de Ciberseguridad tiene las siguientes responsabilidades: diseño, implementación y mejora continua de la seguridad en la infraestructura y sistemas de la organización. Siendo algunas funciones más importantes:
 
 ---
 
@@ -48,7 +48,7 @@ Como Arquitecto de Ciberseguridad, tus responsabilidades girarán en torno al di
 
 ---
 
-## 💪 Habilidades Clave para tu Rol
+## 💪 Habilidades Clave
 - 🔄 **Dominio de frameworks** de ciberseguridad como **NIST**, **ISO 27001**, **MITRE ATT&CK**.
 - ☁️ **Conocimiento en Cloud Security** (AWS, Azure, GCP) y **Zero Trust**.
 - 🔧 **Experiencia con herramientas** de seguridad como **SIEM**, **XDR**, **PAM**, **DLP**, **IAM**, etc.
@@ -57,7 +57,7 @@ Como Arquitecto de Ciberseguridad, tus responsabilidades girarán en torno al di
 
 ---
 
-## 📅 Pasos Clave para tus Primeros 90 Días en el Cargo
+## 📅 Pasos Clave para tus Primeros 90 Días
 
 - 📍 **Primeros 30 días:** Conocer la arquitectura actual, riesgos, normativas y equipos de trabajo.
 - 📍 **Día 31-60:** Evaluar la postura de seguridad, identificar brechas y definir estrategias.
