@@ -13,6 +13,7 @@
   - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
   - [Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna y CA Interna](./guias/guia_tecnica_implementacion_CA_PKI_Interna.md)
   - [Guía Técnica de Seguridad Criptográfica](./guias/guia_tecnica_seguridad_criptografica.md)
+  - [Guía Técnica para flujos de Autenticación y Autorización](./guias/guia-tecnica-autenticacion-autorizacion.md)
   
 
 - ### 📘 Normativas y Regulaciones en el sector Salud
