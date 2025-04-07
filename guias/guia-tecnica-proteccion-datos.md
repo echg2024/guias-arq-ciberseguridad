@@ -5,7 +5,7 @@ La presente guía técnica tiene como objetivo definir y estandarizar las mejore
 Asimismo, se brindará los requisitos técnicos para el uso adecuado de mecanismos criptográficos dentro de la clínica, con el fin de garantizar la confidencialidad, integridad y autenticidad de los datos sensibles y la información institucional.
 
 ## **2. OBJETIVO**
-Brindar una referencia técnica clara sobre los mecanismos de protección de datos, incluyendo cifrado, tokenización, ofuscamiento y otras técnicas de seguridad.
+Brindar una referencia técnica clara sobre los mecanismos de protección de datos, incluyendo cifrado, tokenización, ofuscamiento y otras técnicas de seguridad y definir los algoritmos, protocolos y configuraciones criptográficas aceptadas y prohibidas en los sistemas de información de la clínica.
 
 ## **3. TÉCNICAS DE PROTECCIÓN DE DATOS**
 
