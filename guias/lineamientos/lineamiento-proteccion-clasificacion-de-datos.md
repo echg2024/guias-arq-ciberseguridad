@@ -39,12 +39,13 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - **Oficial de Protección de Datos**: Supervisar el cumplimiento normativo y realizar auditorías.
 
 ## **📊8. MATRIZ RACI**
-| Actividad | Responsable (R) | Aprobador (A) | Consultado (C) | Informado (I) |
-|-----------|----------------|---------------|----------------|--------------|
-| Implementación de controles de seguridad | TI | Dirección | Oficial de Protección de Datos | Usuarios |
-| Monitoreo y auditoría de accesos | TI | Oficial de Protección de Datos | Seguridad | Dirección |
-| Gestión de incidentes de seguridad | TI | Dirección | Seguridad | Usuarios |
-| Respaldo y recuperación de datos | TI | Dirección | Seguridad | Usuarios |
+| Actividad                             | Responsable (R)           | Aprobador (A)                | Consultado (C)                   | Informado (I)      |
+|---------------------------------------|---------------------------|------------------------------|-----------------------------------|--------------------|
+| Implementación de controles de seguridad | TI                        | Dirección                    | Oficial de Protección de Datos    | Usuarios           |
+| Monitoreo y auditoría de accesos      | TI                        | Oficial de Protección de Datos | Seguridad                        | Dirección          |
+| Gestión de incidentes de seguridad    | TI                        | Dirección                    | Seguridad                        | Usuarios           |
+| Respaldo y recuperación de datos      | TI                        | Dirección                    | Seguridad                        | Usuarios           |
+
 
 ## **🔧9. PROCEDIMIENTOS ESPECÍFICOS**
 - **Acceso y Autorización:** Proceso formal de asignación y revocación de permisos.
