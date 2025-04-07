@@ -83,7 +83,11 @@ En algunos casos, fragmentar y distribuir los datos de forma segura entre difere
 - Dividir bases de datos entre diferentes servidores para que la información no se almacene en un solo lugar, reduciendo el riesgo de exposición masiva de datos.
 - Bases de datos distribuidas en múltiples servidores con acceso restringido.
 
-## **📋4. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
+## **📋5. CIFRADO Y PROTOCOLOS DE SEGURIDAD**
+Este capítulo detalla los algoritmos y protocolos de cifrado que deben ser desautorizados debido a sus riesgos de seguridad, así como aquellos que se deben utilizar para garantizar la protección de los datos. A continuación, se especifican los protocolos, algoritmos de cifrado, funciones hash y algoritmos de firma que deben evitarse o adoptarse conforme a las mejores prácticas y estándares de seguridad internacionales.
+
+
+## **📋5. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
 - Definir claramente los tipos de datos que deben protegerse.
 - Implementar cifrado obligatorio en todas las bases de datos y sistemas críticos.
 - Utilizar autenticación multifactor (MFA) para el acceso a información sensible.
@@ -91,7 +95,37 @@ En algunos casos, fragmentar y distribuir los datos de forma segura entre difere
 - Monitorear accesos y posibles vulnerabilidades de manera continua.
 - Capacitar al personal sobre las mejores prácticas de seguridad de la información.
 
-## **🔄5. REVISIÓN Y ACTUALIZACIÓN**
+| **Ciphers y Protocolos** | **Estado**     | **Descripción**                                             |
+|--------------------------|----------------|-------------------------------------------------------------|
+| **Protocolos**            |                |                                                             |
+| SSL 2.0                  | Desautorizado  | Protocolo obsoleto con vulnerabilidades conocidas.           |
+| SSL 3.0                  | Desautorizado  | Protocolo obsoleto con vulnerabilidades conocidas.           |
+| TLS 1.0                  | Desautorizado  | Protocolo obsoleto con vulnerabilidades conocidas.           |
+| TLS 1.1                  | Desautorizado  | Protocolo obsoleto con vulnerabilidades conocidas.           |
+| TLS 1.2                  | Permitido      | Protocolo seguro y ampliamente utilizado.                    |
+| TLS 1.3                  | Permitido      | Última versión del protocolo TLS con mejoras de seguridad.   |
+| **Algoritmos de Cifrado**|                |                                                             |
+| RC4                      | Desautorizado  | Algoritmo de cifrado con debilidades de seguridad.           |
+| DES                      | Desautorizado  | Algoritmo de cifrado obsoleto con clave débil.               |
+| 3DES                     | Desautorizado  | Algoritmo de cifrado con vulnerabilidades conocidas.         |
+| AES-128-GCM              | Permitido      | Algoritmo de cifrado moderno y recomendado.                  |
+| AES-256-GCM              | Permitido      | Algoritmo de cifrado moderno y recomendado.                  |
+| ChaCha20-Poly1305        | Permitido      | Algoritmo de cifrado recomendado para entornos modernos.     |
+| **Funciones Hash**       |                |                                                             |
+| MD5                      | Desautorizado  | Función hash vulnerable a colisiones.                        |
+| SHA-1                    | Desautorizado  | Función hash con debilidades conocidas.                      |
+| SHA-256                  | Permitido      | Función hash recomendada con alta seguridad.                 |
+| SHA-384                  | Permitido      | Función hash recomendada con alta seguridad.                 |
+| **Algoritmos de Firma**  |                |                                                             |
+| RSA (>=2048 bits)        | Permitido      | Algoritmo de firma recomendado con seguridad fuerte.         |
+| ECDSA                    | Permitido      | Algoritmo de firma recomendado con seguridad fuerte.         |
+| Ed25519                  | Permitido      | Algoritmo de firma recomendado con seguridad fuerte.         |
+| **Otros**                |                |                                                             |
+| NULL encryption          | Desautorizado  | Cifrado sin encriptación, vulnerable a ataques.              |
+| EXPORT ciphers           | Desautorizado  | Cifrados con clave débil, vulnerables a ataques.             |
+
+
+## **🔄6. REVISIÓN Y ACTUALIZACIÓN**
 Esta guía deberá revisarse y actualizarse periódicamente para reflejar cambios en normativas, tecnología y mejores prácticas de seguridad.
 
 ---
