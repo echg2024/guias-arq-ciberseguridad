@@ -42,7 +42,7 @@ Siendo algunas funciones más importantes:
 
 ---
 
-## 6. 🔧 Seguridad en Infraestructura y Redes
+## 6.  Seguridad en Infraestructura y Redes
 -  Diseñar arquitecturas de seguridad para redes hospitalarias, centros de datos y entornos **IoT** médicos.
 -  Implementar tecnologías de seguridad como **NGFW**, **EDR**, **XDR**, **NDR**, **SIEM**, **SOAR**, **SASE**.
 -  Asegurar la segmentación de redes y el monitoreo de tráfico en entornos hospitalarios (**VLANs** para dispositivos médicos, sistemas administrativos y de pacientes).
