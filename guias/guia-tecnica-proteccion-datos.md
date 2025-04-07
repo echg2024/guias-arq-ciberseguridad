@@ -2,6 +2,7 @@
 
 ## **1. INTRODUCCIÓN** 
 La presente guía técnica tiene como objetivo definir y estandarizar las mejores prácticas para la protección de datos sensibles en la clínica. Estas medidas ayudarán a garantizar la seguridad de la información en cumplimiento con las normativas aplicables y los lineamientos de seguridad.
+Asimismo, se brindará los requisitos técnicos para el uso adecuado de mecanismos criptográficos dentro de la clínica, con el fin de garantizar la confidencialidad, integridad y autenticidad de los datos sensibles y la información institucional.
 
 ## **2. OBJETIVO**
 Brindar una referencia técnica clara sobre los mecanismos de protección de datos, incluyendo cifrado, tokenización, ofuscamiento y otras técnicas de seguridad.
