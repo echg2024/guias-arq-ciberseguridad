@@ -13,25 +13,25 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 
 ##  Objetivos de HL7, FHIR, ISO 27799 y TOGAF
 
-### . HL7
+### HL7
 
 - Facilitar la interoperabilidad entre diferentes sistemas de información en salud.
 - Definir estándares de mensajería clínica, documentos y terminologías.
 - Proveer un marco común para la gestión de historias clínicas electrónicas (EHR).
 
-### . FHIR
+### FHIR
 
 - Modernizar la interoperabilidad utilizando RESTful APIs y formatos como JSON y XML.
 - Acelerar el intercambio de información clínica entre hospitales, clínicas y aseguradoras.
 - Facilitar la integración con aplicaciones móviles y plataformas en la nube.
 
-### . ISO 27799
+### ISO 27799
 
 - Establecer prácticas para la seguridad de la información en salud, basadas en ISO 27001.
 - Proteger la confidencialidad, integridad y disponibilidad de los datos clínicos.
 - Cumplir con normativas como HIPAA, GDPR y la Ley N° 29733 en Perú.
 
-### . TOGAF
+### TOGAF
 
 - Proporcionar un marco estructurado para diseñar, planificar e implementar arquitecturas empresariales.
 - Alinear la tecnología con los objetivos estratégicos de las organizaciones de salud.
