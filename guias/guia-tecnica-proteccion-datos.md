@@ -1,4 +1,4 @@
-# **📜 GUÍA TÉCNICA PARA LA PROTECCIÓN DE DATOS SENSIBLES**
+# ** GUÍA TÉCNICA PARA LA PROTECCIÓN DE DATOS SENSIBLES**
 
 ## **1. INTRODUCCIÓN** 
 La presente guía técnica tiene como objetivo definir y estandarizar las mejores prácticas para la protección de datos sensibles en la clínica. Estas medidas ayudarán a garantizar la seguridad de la información en cumplimiento con las normativas aplicables y los lineamientos de seguridad.
@@ -8,7 +8,7 @@ Brindar una referencia técnica clara sobre los mecanismos de protección de dat
 
 ## **3. TÉCNICAS DE PROTECCIÓN DE DATOS**
 
-### **🔒3.1 Cifrado (Encryption)**
+### **3.1 Cifrado (Encryption)**
 Convierte datos en un formato ilegible sin una clave de descifrado.
 El cifrado es esencial para proteger datos sensibles como historias clínicas electrónicas (HCE), diagnósticos, tratamientos, y cualquier tipo de información que se maneje en sistemas de gestión hospitalaria. El uso de cifrado en reposo y en tránsito garantiza que los datos sean accesibles solo para personal autorizado.
 
