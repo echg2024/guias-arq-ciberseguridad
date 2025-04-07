@@ -16,7 +16,17 @@ Definir los principios, controles de seguridad y procedimientos requeridos para 
 
 ## **3. Alcance**
 
-Este documento aplica a todas las entidades del sector salud que requieran una PKI interna para la emisión y gestión de certificados digitales, incluyendo hospitales, clínicas, laboratorios y proveedores de servicios médicos. Abarca la implementación, configuración, administración y auditoría de la CA interna y PKI interna.
+Este lineamiento aplica a todas las áreas de la clínica que hacen uso de servicios digitales que requieren confidencialidad, integridad, autenticación y no repudio mediante certificados digitales emitidos por la Autoridad Certificadora (CA) interna.
+
+En particular, abarca a las siguientes áreas:
+
+- Tecnologías de la Información: Implementación, administración y mantenimiento de la CA y la PKI interna.
+- Gestión Clínica y Administrativa: Aplicación de firmas digitales en procesos clínicos y administrativos.
+- Laboratorios y Diagnóstico por Imágenes: Seguridad en la transmisión de resultados y estudios médicos.
+- Área de Historia Clínica Electrónica (HCE): Protección de accesos y registros mediante certificados.
+- Área de Equipamiento Médico: Autenticación y comunicación segura entre dispositivos conectados (IoMT).
+- Personal Médico y de Enfermería: Uso de certificados digitales para autenticación y firma de documentos.
+- Usuarios y Pacientes (cuando aplique): Autenticación y firma de consentimientos informados en línea.
 
 ---
 
