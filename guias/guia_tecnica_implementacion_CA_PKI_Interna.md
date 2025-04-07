@@ -64,9 +64,9 @@ Una **CA interna** es una entidad dentro de una organización responsable de emi
 
 | Modelo       | Ventajas                                                                 | Desventajas                                                                 | Recomendado para                                 |
 |--------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------|
-| **Una capa** | - Fácil de implementar<br>- Bajo costo<br>- Administración sencilla      | - Menor seguridad (CA raíz expuesta)<br>- Punto único de fallo<br>- No escalable | 🧪 Laboratorios pequeños o entornos de prueba     |
-| **Dos capas**| - Mayor seguridad (CA raíz offline)<br>- Escalable<br>- Buen manejo de revocaciones | - Más compleja que una capa<br>- Requiere mantenimiento de múltiples CAs    | 🏥 Organizaciones medianas/grandes del sector salud |
-| **Tres capas**| - Máxima seguridad y segregación<br>- Alta escalabilidad<br>- Flexibilidad | - Mayor complejidad técnica<br>- Más costoso<br>- Requiere personal capacitado | 🏛️ Instituciones grandes o altamente reguladas    |
+| **Una capa** | - Fácil de implementar<br>- Bajo costo<br>- Administración sencilla      | - Menor seguridad (CA raíz expuesta)<br>- Punto único de fallo<br>- No escalable |  Laboratorios pequeños o entornos de prueba     |
+| **Dos capas**| - Mayor seguridad (CA raíz offline)<br>- Escalable<br>- Buen manejo de revocaciones | - Más compleja que una capa<br>- Requiere mantenimiento de múltiples CAs    |  Organizaciones medianas/grandes del sector salud |
+| **Tres capas**| - Máxima seguridad y segregación<br>- Alta escalabilidad<br>- Flexibilidad | - Mayor complejidad técnica<br>- Más costoso<br>- Requiere personal capacitado |  Instituciones grandes o altamente reguladas    |
 
 ---
 
@@ -109,25 +109,25 @@ Si la empresa cuenta con Windows Active Directory (AD), entonces Active Director
 Se debe evaluar el escenario actual, solo en caso que el entorno Oracle interactúa actualmente con AD sin problemas, y el riesgo de ataque cruzado es bajo, puedes usar solo AD CS con procesos manuales (CSR).
 
 ### Para Active Directory y Windows (infraestructura empresarial)
-#### ✅ Microsoft AD CS
+####  Microsoft AD CS
 - Emite certificados para autenticación de usuarios, servidores y equipos en la red corporativa.
 - Integración nativa con Windows y políticas de grupo.
 
 ### Para cargas en GCP y microservicios
-#### ✅ HashiCorp Vault + PKI Engine
+####  HashiCorp Vault + PKI Engine
 - Ideal para certificados efímeros y automatización en entornos dinámicos.
 - Se integra con Kubernetes, Terraform y CI/CD.
-#### ✅ CFSSL (Cloudflare PKI Tool)
+####  CFSSL (Cloudflare PKI Tool)
 - Rápido y ligero para firmar certificados en pipelines de despliegue.
 - Compatible con GCP Cloud Run y GKE.
 
 ### Para gestión centralizada de la PKI
-#### ✅ EJBCA
+####  EJBCA
 - Solución robusta con CA, CRL, OCSP y gestión de claves.
 - Puede servir como la CA raíz de toda tu PKI interna.
 
 ### Para administración manual y pruebas
-#### ✅ OpenSSL
+####  OpenSSL
 - Útil para crear certificados de prueba y debugging.
 - Puede ser usado para firmar certificados en entornos offline.
 
@@ -167,7 +167,7 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 
 ---
 
-## 🧩 Cuadro de Riesgos y Tipos de Ataques – CA Interno vs PKI Interno
+##  Cuadro de Riesgos y Tipos de Ataques – CA Interno vs PKI Interno
 
 | Componente              | Riesgo por No Implementarlo                                       | Tipos de Ataques o Amenazas Asociadas                 | Impacto Potencial en el Sector Salud                              |
 |-------------------------|------------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------|
@@ -176,7 +176,7 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 
 ---
 
-## 🛠️ Análisis de herramientas para construir un PKI interno
+##  Análisis de herramientas para construir un PKI interno
 
 | Herramienta              | ¿Maneja CA? | ¿Gestión de Claves? | ¿Soporte CRL/OCSP? | ¿Automatizable? | ¿Casos de Uso?                            |
 |-------------------------|-------------|---------------------|--------------------|-----------------|-------------------------------------------|
@@ -220,7 +220,7 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 
 ---
 
-## 🧩 ¿Cuándo debes incluir un Key Vault en una PKI o CA interna?
+##  ¿Cuándo debes incluir un Key Vault en una PKI o CA interna?
 
 | Momento o Componente               | ¿Usar Key Vault? | ¿Por qué? / Beneficio                                           |
 |------------------------------------|------------------|---------------------------------------------------------------|
