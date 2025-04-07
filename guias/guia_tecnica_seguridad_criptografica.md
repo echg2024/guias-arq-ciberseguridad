@@ -87,7 +87,7 @@ En algunos casos, fragmentar y distribuir los datos de forma segura entre difere
 - Dividir bases de datos entre diferentes servidores para que la información no se almacene en un solo lugar, reduciendo el riesgo de exposición masiva de datos.
 - Bases de datos distribuidas en múltiples servidores con acceso restringido.
 
-## **📋5. CIFRADO Y PROTOCOLOS DE SEGURIDAD**
+## **🔒5. CIFRADO Y PROTOCOLOS DE SEGURIDAD**
 Este capítulo detalla los algoritmos y protocolos de cifrado que deben ser desautorizados debido a sus riesgos de seguridad, así como aquellos que se deben utilizar para garantizar la protección de los datos. A continuación, se especifican los protocolos, algoritmos de cifrado, funciones hash y algoritmos de firma que deben evitarse o adoptarse conforme a las mejores prácticas y estándares de seguridad internacionales.
 
 | **Ciphers y Protocolos** | **Estado**     | **Descripción**                                             |
