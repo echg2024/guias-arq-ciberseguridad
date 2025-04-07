@@ -1,4 +1,4 @@
-# ** LINEAMIENTOS PARA LA PROTECCIÓN DE DATOS EN EL SECTOR SALUD**
+# **LINEAMIENTOS PARA LA PROTECCIÓN DE DATOS EN EL SECTOR SALUD**
 
 ## **1. INTRODUCCIÓN**
 La clínica maneja información crítica relacionada con la salud de los pacientes, datos administrativos y operacionales. La adecuada protección de estos datos es fundamental para garantizar la confidencialidad, integridad y disponibilidad de la información, así como para cumplir con regulaciones nacionales e internacionales.
