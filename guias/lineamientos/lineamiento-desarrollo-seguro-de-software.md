@@ -36,7 +36,7 @@ Los controles de seguridad deben implementarse en cada fase del ciclo de vida de
 - **Diseño Seguro**:
     - Realizar un análisis de amenazas y riesgos para identificar posibles puntos vulnerables en la arquitectura.
     - Integrar principios de Zero Trust en la arquitectura de software.
-    - Definir protocolos de autenticación y autorización seguros, como OAuth 2.0 y OpenID Connect.
+    - Definir protocolos de autenticación y autorización seguros, como OAuth 2.0 y OpenID Connect. Para detalles Tecnicos adicionales sobre Autenticación y Autorización, se recomienda consultar la [Guía Técnica de Seguridad Criptográfica](/guias-arq-ciberseguridad/guias/guia_tecnica_seguridad_criptografica.html)
 - **Desarrollo Seguro**:
     - Asegurarse de que las aplicaciones validen todas las entradas para prevenir ataques de inyección como SQLi, XSS, y CSRF.
     - Implementar JWT como método seguro para representar la identidad y la autorización de los usuarios.
