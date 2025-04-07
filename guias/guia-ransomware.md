@@ -1,4 +1,4 @@
-#1. **Guía Integral de Preparación y Respuesta ante Ransomware en el Sector Salud**
+# 1. **Guía Integral de Preparación y Respuesta ante Ransomware en el Sector Salud**
 
 ## 📊 Acciones Inmediatas para Comenzar
 - ✅ **Realiza un diagnóstico inicial de riesgos.**
