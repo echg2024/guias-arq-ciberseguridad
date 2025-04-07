@@ -1,43 +1,43 @@
 # 📉 HL7, FHIR, ISO 27799 y TOGAF en el Sector Salud
 
-## 📑 Introducción
+##  Introducción
 
 En el sector salud, la gestión de la información clínica, la seguridad de los datos y la arquitectura empresarial son fundamentales. Para abordar estos desafíos, existen estándares y marcos como HL7 (Health Level Seven), FHIR (Fast Healthcare Interoperability Resources), ISO 27799 y TOGAF (The Open Group Architecture Framework), cada uno con enfoques distintos pero complementarios.
 
-- 📄 **HL7** es un marco de interoperabilidad que facilita el intercambio de datos de salud.
-- 🌐 **FHIR** es un estándar basado en APIs modernas para la integración de sistemas de salud. -> [FHIR](./docs/FHIR-modulos.md)
-- 🔒 **ISO 27799** proporciona directrices para la seguridad de la información en el sector sanitario. -> [ISO-27799](./docs/ISO-27799-2016.pdf)
-- 🏗️ **TOGAF** es un marco de arquitectura empresarial que ayuda a estructurar y alinear TI con los objetivos del negocio.
+-  **HL7** es un marco de interoperabilidad que facilita el intercambio de datos de salud.
+-  **FHIR** es un estándar basado en APIs modernas para la integración de sistemas de salud. -> [FHIR](./docs/FHIR-modulos.md)
+-  **ISO 27799** proporciona directrices para la seguridad de la información en el sector sanitario. -> [ISO-27799](./docs/ISO-27799-2016.pdf)
+-  **TOGAF** es un marco de arquitectura empresarial que ayuda a estructurar y alinear TI con los objetivos del negocio.
 
 Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimiento normativo y la alineación estratégica en las organizaciones de salud.
 
-## 📈 Objetivos de HL7, FHIR, ISO 27799 y TOGAF
+##  Objetivos de HL7, FHIR, ISO 27799 y TOGAF
 
-### 📘 HL7
+### . HL7
 
 - Facilitar la interoperabilidad entre diferentes sistemas de información en salud.
 - Definir estándares de mensajería clínica, documentos y terminologías.
 - Proveer un marco común para la gestión de historias clínicas electrónicas (EHR).
 
-### 🌍 FHIR
+### . FHIR
 
 - Modernizar la interoperabilidad utilizando RESTful APIs y formatos como JSON y XML.
 - Acelerar el intercambio de información clínica entre hospitales, clínicas y aseguradoras.
 - Facilitar la integración con aplicaciones móviles y plataformas en la nube.
 
-### 🔐 ISO 27799
+### . ISO 27799
 
 - Establecer prácticas para la seguridad de la información en salud, basadas en ISO 27001.
 - Proteger la confidencialidad, integridad y disponibilidad de los datos clínicos.
 - Cumplir con normativas como HIPAA, GDPR y la Ley N° 29733 en Perú.
 
-### 🏗️ TOGAF
+### . TOGAF
 
 - Proporcionar un marco estructurado para diseñar, planificar e implementar arquitecturas empresariales.
 - Alinear la tecnología con los objetivos estratégicos de las organizaciones de salud.
 - Facilitar la gestión del cambio y la interoperabilidad entre diferentes sistemas.
 
-## 📊 Alcance de HL7, FHIR, ISO 27799 y TOGAF
+##  Alcance de HL7, FHIR, ISO 27799 y TOGAF
 
 |  Estándar | Alcance |
 |-------------|-----------|
