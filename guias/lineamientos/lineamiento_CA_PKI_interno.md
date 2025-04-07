@@ -44,8 +44,8 @@ La implementación de una PKI interna debe alinearse con las siguientes normativ
 
 ## **6. Controles de Seguridad**
 
-- **Uso de una CA Raíz offline** y CA intermedias online. [Guía Técnica Protección de Datos Sensibles](/guias-arq-ciberseguridad/guias/guia-tecnica-proteccion-datos.html)
-- **Emisión de certificados con algoritmos seguros** (RSA 4096, ECC P-384). Para mayor información revisar la [Guía Técnica Protección de Datos Sensibles](/guias-arq-ciberseguridad/guias/guia-tecnica-proteccion-datos.html)
+- **Uso de una CA Raíz offline** y CA intermedias online. Para mayor información revisar -> [Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna y CA Interna](/guias-arq-ciberseguridad/guia_tecnica_implementacion_CA_PKI_Interna.html)
+- **Emisión de certificados con algoritmos seguros** (RSA 4096, ECC P-384). Para mayor información revisar -> [Guía Técnica Protección de Datos Sensibles](/guias-arq-ciberseguridad/guias/guia-tecnica-proteccion-datos.html)
 - **Periodo de validez y renovación**: Definición de tiempos según el tipo de certificado.
 - **Revocación de certificados mediante CRL y OCSP**.
 - **Autenticación multifactor (MFA) para administradores de la PKI**.
