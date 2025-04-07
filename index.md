@@ -11,7 +11,6 @@
   - [Guía de Ransomware](./guias/guia-ransomware.md)
   - [Guía de Pentesting](./guias/guia-pentesting.md)
   - [Guía de Pentesting Herramientas](./guias/guia-herramientas.md)
-  - [Guía Técnica Protección de Datos Sensibles](./guias/guia-tecnica-proteccion-datos.md)
   - [Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna y CA Interna](./guias/guia_tecnica_implementacion_CA_PKI_Interna.md)
   - [Guía Técnica de Seguridad Criptográfica](./guias/guia_tecnica_seguridad_criptografica.md)
   
