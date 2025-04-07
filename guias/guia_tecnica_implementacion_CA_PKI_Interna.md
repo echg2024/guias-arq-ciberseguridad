@@ -183,7 +183,7 @@ Una vez que la CA interna esté operativa, puedes ampliar la arquitectura con:
 | **Microsoft AD CS**      |  Sí       |  Sí               |  Sí              |  Limitado     | Entornos Windows empresariales            |
 | **HashiCorp Vault + PKI**|  Sí       |  Sí               |  No (necesita addon) |  Sí        | DevOps, Kubernetes, entornos híbridos     |
 | **EJBCA**                |  Sí       |  Sí               |  Sí              |  Sí           | PKI completa y escalable                  |
-| **OpenSSL**              |  Sí       |  Sí               |  No (manual)     |  No           | CA manual, laboratorio o pequeños entornos|
+| **OpenSSL**              |  Sí       |  Sí               |  No (manual)     |  No           | CA Root, CA manual|
 | **CFSSL (Cloudflare PKI)**|  Sí       |  Sí               |  No (manual)     |  Sí           | Microservicios, CI/CD                     |
 
 ---
