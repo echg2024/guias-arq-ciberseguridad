@@ -15,46 +15,46 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 
 ### 📘 HL7
 
-- ✅ Facilitar la interoperabilidad entre diferentes sistemas de información en salud.
-- ✅ Definir estándares de mensajería clínica, documentos y terminologías.
-- ✅ Proveer un marco común para la gestión de historias clínicas electrónicas (EHR).
+- Facilitar la interoperabilidad entre diferentes sistemas de información en salud.
+- Definir estándares de mensajería clínica, documentos y terminologías.
+- Proveer un marco común para la gestión de historias clínicas electrónicas (EHR).
 
 ### 🌍 FHIR
 
-- ✅ Modernizar la interoperabilidad utilizando RESTful APIs y formatos como JSON y XML.
-- ✅ Acelerar el intercambio de información clínica entre hospitales, clínicas y aseguradoras.
-- ✅ Facilitar la integración con aplicaciones móviles y plataformas en la nube.
+- Modernizar la interoperabilidad utilizando RESTful APIs y formatos como JSON y XML.
+- Acelerar el intercambio de información clínica entre hospitales, clínicas y aseguradoras.
+- Facilitar la integración con aplicaciones móviles y plataformas en la nube.
 
 ### 🔐 ISO 27799
 
-- ✅ Establecer prácticas para la seguridad de la información en salud, basadas en ISO 27001.
-- ✅ Proteger la confidencialidad, integridad y disponibilidad de los datos clínicos.
-- ✅ Cumplir con normativas como HIPAA, GDPR y la Ley N° 29733 en Perú.
+- Establecer prácticas para la seguridad de la información en salud, basadas en ISO 27001.
+- Proteger la confidencialidad, integridad y disponibilidad de los datos clínicos.
+- Cumplir con normativas como HIPAA, GDPR y la Ley N° 29733 en Perú.
 
 ### 🏗️ TOGAF
 
-- ✅ Proporcionar un marco estructurado para diseñar, planificar e implementar arquitecturas empresariales.
-- ✅ Alinear la tecnología con los objetivos estratégicos de las organizaciones de salud.
-- ✅ Facilitar la gestión del cambio y la interoperabilidad entre diferentes sistemas.
+- Proporcionar un marco estructurado para diseñar, planificar e implementar arquitecturas empresariales.
+- Alinear la tecnología con los objetivos estratégicos de las organizaciones de salud.
+- Facilitar la gestión del cambio y la interoperabilidad entre diferentes sistemas.
 
 ## 📊 Alcance de HL7, FHIR, ISO 27799 y TOGAF
 
-| 🏦 Estándar | 🔄 Alcance |
+|  Estándar | Alcance |
 |-------------|-----------|
 | **HL7**     | Definición de formatos y protocolos para el intercambio de datos médicos. |
 | **FHIR**    | Interoperabilidad basada en APIs para sistemas de salud modernos. |
 | **ISO 27799**| Seguridad y gobernanza de la información en sistemas de salud. |
 | **TOGAF**   | Diseño y alineamiento estratégico de la arquitectura empresarial en salud. |
 
-## 🌟 Beneficios de Implementar HL7, FHIR, ISO 27799 y TOGAF
+## Beneficios de Implementar HL7, FHIR, ISO 27799 y TOGAF
 
-### 📗 HL7
+###  HL7
 
-- ✅ Estandariza la comunicación entre sistemas médicos.
-- ✅ Permite la interoperabilidad entre hospitales, laboratorios y aseguradoras.
-- ✅ Facilita la integración con EHR y PACS (sistemas de imágenes médicas).
+-  Estandariza la comunicación entre sistemas médicos.
+-  Permite la interoperabilidad entre hospitales, laboratorios y aseguradoras.
+-  Facilita la integración con EHR y PACS (sistemas de imágenes médicas).
 
-### 🔍 FHIR
+###  FHIR
 
 - ✅ Usa tecnologías modernas como APIs RESTful y formatos legibles como JSON.
 - ✅ Compatible con aplicaciones móviles y sistemas en la nube.
@@ -62,15 +62,15 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 
 ### 🔒 ISO 27799
 
-- ✅ Refuerza la ciberseguridad en hospitales y centros médicos.
-- ✅ Proporciona una base para cumplir con normativas regulatorias.
-- ✅ Minimiza el riesgo de brechas de datos y ataques cibernéticos.
+-  Refuerza la ciberseguridad en hospitales y centros médicos.
+-  Proporciona una base para cumplir con normativas regulatorias.
+-  Minimiza el riesgo de brechas de datos y ataques cibernéticos.
 
 ### 🏗️ TOGAF
 
-- ✅ Asegura la alineación de TI con los objetivos del negocio.
-- ✅ Mejora la gobernanza y la gestión de riesgos en la infraestructura de salud.
-- ✅ Facilita la planificación a largo plazo y la escalabilidad.
+-  Asegura la alineación de TI con los objetivos del negocio.
+-  Mejora la gobernanza y la gestión de riesgos en la infraestructura de salud.
+-  Facilita la planificación a largo plazo y la escalabilidad.
 
 ## 🌐 Proceso de Implementación
 
@@ -117,7 +117,7 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 - 🔐 ISO 27799 es clave para la gobernanza de datos y cumplimiento normativo.
 - 🔗 BIAN no es adecuado para salud, pero su enfoque en arquitectura modular puede servir de referencia.
 
-## 💡 Recomendaciones
+##  Recomendaciones
 
 - ✔ Adoptar HL7 y FHIR para mejorar la interoperabilidad entre sistemas médicos.
 - ✔ Implementar ISO 27799 para fortalecer la seguridad de la información de pacientes.
@@ -126,13 +126,13 @@ Estos marcos pueden combinarse para mejorar la eficiencia, seguridad, cumplimien
 - ✔ Realizar auditorías de seguridad periódicas para asegurar el cumplimiento con ISO 27799 y otras normativas.
 
 ---
-# 📊 Relación entre HL7 y FHIR
+#  Relación entre HL7 y FHIR
 
 FHIR (Fast Healthcare Interoperability Resources) fue desarrollado por HL7 como una evolución de sus versiones anteriores (HL7 v2 y HL7 v3). La idea principal de FHIR es modernizar la interoperabilidad en salud usando tecnologías web como APIs RESTful, JSON y XML.
 
 ---
 
-## 📄 Diferencias Clave entre HL7 y FHIR
+##  Diferencias Clave entre HL7 y FHIR
 
 | 📊 **Característica**   | **HL7 v2/v3**                                | **FHIR**                                |
 |--------------------------|------------------------------------------|------------------------------------------|
@@ -148,8 +148,8 @@ FHIR (Fast Healthcare Interoperability Resources) fue desarrollado por HL7 como 
 
 ## 📉 Conclusión
 
-- 🔄 **HL7 v2** sigue siendo el estándar predominante en hospitales con infraestructura heredada.
-- 📈 **FHIR** es más moderno, flexible y fácil de integrar con nuevas tecnologías como la nube y la IA.
-- 💪 **FHIR** no reemplaza a HL7 v2/v3, sino que los complementa y facilita la transición hacia sistemas más interoperables.  
+-  **HL7 v2** sigue siendo el estándar predominante en hospitales con infraestructura heredada.
+-  **FHIR** es más moderno, flexible y fácil de integrar con nuevas tecnologías como la nube y la IA.
+-  **FHIR** no reemplaza a HL7 v2/v3, sino que los complementa y facilita la transición hacia sistemas más interoperables.  
 
 [GLOSARIO](./docs/glosario.md)
