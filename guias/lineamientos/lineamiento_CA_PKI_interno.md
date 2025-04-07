@@ -44,7 +44,7 @@ La implementación de una PKI interna debe alinearse con las siguientes normativ
 
 ## **6. Controles de Seguridad**
 
-- **Uso de una CA Raíz offline** y CA intermedias online. Para mayor información revisar -> [Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna y CA Interna](/guias-arq-ciberseguridad/guia_tecnica_implementacion_CA_PKI_Interna.html)
+- **Uso de una CA Raíz offline** y **CA intermedias online**. Para mayor información revisar -> [Guía Técnica para la Implementación de una Infraestructura de Clave Pública (PKI) Interna y CA Interna](/guias-arq-ciberseguridad/guia_tecnica_implementacion_CA_PKI_Interna.html)
 - **Emisión de certificados con algoritmos seguros** La emisión de certificados con algoritmos seguros es un proceso crítico para garantizar la autenticidad y confidencialidad en las comunicaciones electrónicas. Para mayor información revisar -> [Guía Técnica de Seguridad Criptográfica](/guias-arq-ciberseguridad/guias/guia_tecnica_seguridad_criptogrfica.html)
 - **Periodo de validez y renovación**: Definición de tiempos según el tipo de certificado.
 - **Revocación de certificados mediante CRL y OCSP**.
