@@ -35,7 +35,7 @@ Aplica a todas las aplicaciones y servicios desarrollados o mantenidos por la em
 ## 7. SEGURIDAD EN INFRAESTRUCTURA Y OPERACIONES
 - Aplicar **CIS Benchmarks** en servidores y contenedores.  
 - Implementar **controles de acceso basados en roles (RBAC)**.  
-- Uso de cifrado fuerte (**AES-256** para datos en reposo, **TLS 1.2/1.3** para datos en tránsito).  
+- Uso de cifrado fuerte -> Para detalles adicionales sobre la implementación de medidas criptográficas, se recomienda consultar la [Guía Técnica de Seguridad Criptográfica](/guias-arq-ciberseguridad/guias/guia_tecnica_seguridad_criptogrfica.html) 
 
 ## 8. GESTIÓN DE IDENTIDAD Y ACCESO
 🔹 Implementación de **IAM** con autenticación multifactor (**MFA**).  
