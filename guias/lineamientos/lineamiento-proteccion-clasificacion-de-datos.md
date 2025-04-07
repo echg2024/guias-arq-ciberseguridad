@@ -25,7 +25,7 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - **Transparencia:** Informar a los pacientes y empleados sobre el tratamiento de sus datos.
 
 ## **🔒6. CONTROLES DE SEGURIDAD**
-- **Cifrado de Datos:** AES-256 para almacenamiento, TLS 1.2 o superior para tránsito. Para mayor información revisar la [Guía Técnica Protección de Datos Sensibles](/guias-arq-ciberseguridad/guias/guia-tecnica-proteccion-datos.html)
+- **Cifrado de Datos:** El uso de cifrado robusto es esencial para proteger los datos sensibles, tanto en tránsito como en reposo. Se deberá utilizar AES-256 para el almacenamiento y TLS 1.2 o superior para el tránsito. Para detalles adicionales sobre la implementación de medidas criptográficas, se recomienda consultar la [Guía Técnica de Seguridad Criptográfica](/guias-arq-ciberseguridad/guias/guia_tecnica_seguridad_criptogrfica.html)
 - **Autenticación Multifactor (MFA):** Implementación obligatoria para sistemas críticos.
 - **Control de Acceso Basado en Roles (RBAC):** Restricción de acceso según funciones.
 - **Monitoreo y Auditoría:** Seguimiento de accesos y transacciones en bases de datos.
