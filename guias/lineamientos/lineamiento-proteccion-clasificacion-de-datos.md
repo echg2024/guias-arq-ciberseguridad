@@ -52,12 +52,19 @@ Estos lineamientos aplican a todos los empleados, terceros, proveedores y sistem
 - **Retención y Eliminación Segura de Datos:** Cumplimiento de plazos y eliminación certificada.
 - **Evaluación de Riesgos:** Identificación y mitigación de vulnerabilidades.
 
-## **🔄10. REVISIÓN Y MEJORA CONTINUA**
+## **📋10. RECOMENDACIONES PARA SU IMPLEMENTACIÓN**
+Definir claramente los tipos de datos que deben protegerse.
+Implementar cifrado obligatorio en todas las bases de datos y sistemas críticos.
+Utilizar autenticación multifactor (MFA) para el acceso a información sensible.
+Aplicar políticas de retención y eliminación segura de datos.
+Monitorear accesos y posibles vulnerabilidades de manera continua.
+Capacitar al personal sobre las mejores prácticas de seguridad de la información.
+## **🔄11. REVISIÓN Y MEJORA CONTINUA**
 - Se realizarán auditorías anuales y revisiones cada seis meses para evaluar la efectividad de los controles.
 - Se actualizarán los lineamientos en función de cambios normativos o tecnológicos.
 - Se promoverán capacitaciones constantes al personal sobre seguridad de la información.
 
-## **📝11. APROBACIÓN FORMAL**
+## **📝12. APROBACIÓN FORMAL**
 Estos lineamientos han sido aprobados por la Dirección de la Clínica y serán revisados periódicamente para garantizar su vigencia y efectividad.
 
 ---
