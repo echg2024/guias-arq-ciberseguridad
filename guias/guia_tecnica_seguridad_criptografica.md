@@ -3,7 +3,7 @@
 ---
 
 ## **1. Introducción**
-Este lineamiento establece los requisitos técnicos para el uso adecuado de mecanismos criptográficos dentro de la clínica, con el fin de garantizar la confidencialidad, integridad y autenticidad de los datos sensibles y la información institucional.
+Esta guía establece los requisitos técnicos para el uso adecuado de mecanismos criptográficos dentro de la clínica, con el fin de garantizar la confidencialidad, integridad y autenticidad de los datos sensibles y la información institucional.
 
 ## **2. Objetivo**
 Definir los algoritmos, protocolos y configuraciones criptográficas aceptadas y prohibidas en los sistemas de información de la clínica.
