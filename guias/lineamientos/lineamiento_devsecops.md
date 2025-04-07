@@ -20,17 +20,17 @@ Aplica a todas las aplicaciones y servicios desarrollados o mantenidos por la em
  - **PCI-DSS** – Aplicable si se manejan pagos electrónicos.
 
 ## 5. PRINCIPIOS DE DEVSECOPS
-- ** Automatización de Seguridad**: Integrar herramientas de seguridad en el pipeline CI/CD.
-- ** Shift Left**: Incorporar seguridad desde las primeras fases del desarrollo.
-- ** Defensa en Profundidad**: Aplicación de múltiples capas de seguridad.
-- ** Cumplimiento y Auditoría Continua**: Verificación permanente del cumplimiento de estándares.
+- **Automatización de Seguridad**: Integrar herramientas de seguridad en el pipeline CI/CD.
+- **Shift Left**: Incorporar seguridad desde las primeras fases del desarrollo.
+- **Defensa en Profundidad**: Aplicación de múltiples capas de seguridad.
+- **Cumplimiento y Auditoría Continua**: Verificación permanente del cumplimiento de estándares.
 
 ## 6. CONTROLES DE SEGURIDAD EN EL CICLO DE DESARROLLO (SDLC)
-- ** Planificación**: Evaluación de riesgos con modelos **STRIDE** o **DREAD**.
-- ** Desarrollo**: Uso de análisis de código estático (**SAST**) con herramientas como **SonarQube**.
-- ** Integración y Pruebas**: Escaneo de dependencias (**SCA**) con **Dependabot**, pruebas dinámicas (**DAST**) con **OWASP ZAP**.
-- ** Despliegue**: Seguridad en contenedores con escaneo de imágenes (**Trivy, Checkov**).
-- ** Monitoreo**: Uso de **SIEM** (**Splunk, Wazuh**) para la detección de amenazas.
+- **Planificación**: Evaluación de riesgos con modelos **STRIDE** o **DREAD**.
+- **Desarrollo**: Uso de análisis de código estático (**SAST**) con herramientas como **SonarQube**.
+- **Integración y Pruebas**: Escaneo de dependencias (**SCA**) con **Dependabot**, pruebas dinámicas (**DAST**) con **OWASP ZAP**.
+- **Despliegue**: Seguridad en contenedores con escaneo de imágenes (**Trivy, Checkov**).
+- **Monitoreo**: Uso de **SIEM** (**Splunk, Wazuh**) para la detección de amenazas.
 
 ## 7. SEGURIDAD EN INFRAESTRUCTURA Y OPERACIONES
 - Aplicar **CIS Benchmarks** en servidores y contenedores.  
